@@ -1,4 +1,4 @@
-# Voyadores Playwright Login Tests
+# Playwright Login Automation Tests
 
 ## Overview
 This repository contains Playwright-based automated tests for the **Voyadores DEV login page**.  
