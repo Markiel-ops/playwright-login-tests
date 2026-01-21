@@ -1,8 +1,9 @@
-# Voyadores Playwright Login Tests
+# Playwright login Automation Tests
 
 ## Overview
-This repository contains Playwright-based automated tests for the **Voyadores DEV login page**.  
-It validates critical authentication flows and UI behaviors using **Chromium (Chrome)**.
+This repository contains Playwright-based automated tests for a sample DEV login page.
+It validates critical authentication flows and UI behaviors using Chromium (Chrome).
+
 
 ---
 
