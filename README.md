@@ -35,7 +35,7 @@ The following login-related scenarios are automated:
 ## Project Structure
 
 ```text
-voyadores-playwright/
+playwright-login-tests/
 ├── tests/
 │   └── example.spec.js
 ├── playwright.config.js
