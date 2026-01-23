@@ -1,21 +1,31 @@
-import { defineConfig } from '@playwright/test';
-import 'dotenv/config';
+// 🔑 Load environment variables FIRST
+require('dotenv').config();
 
-export default defineConfig({
+// 🎭 Playwright config helper
+const { defineConfig } = require('@playwright/test');
+
+module.exports = defineConfig({
   testDir: './tests',
 
-  globalSetup: './tests/auth.setup.js',
+  timeout: 30 * 1000,
 
   use: {
-    baseURL: process.env.VOYA_LOGIN_URL,
-    storageState: 'playwright/.auth/user.json',
+    baseURL: 'https://dev2-login.voyadores.com',
+    headless: true,
+    screenshot: 'only-on-failure',
     trace: 'on-first-retry',
   },
 
   projects: [
     {
-      name: 'chromium',
-      use: { browserName: 'chromium' },
+      name: 'logged-out',
+      use: {},
+    },
+    {
+      name: 'logged-in',
+      use: {
+        storageState: 'auth.json',
+      },
     },
   ],
 });

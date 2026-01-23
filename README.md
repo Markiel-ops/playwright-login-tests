@@ -1,9 +1,8 @@
 # Playwright login Automation Tests
 
 ## Overview
-This repository contains Playwright-based automated tests for a sample DEV login page.
-It validates critical authentication flows and UI behaviors using Chromium (Chrome).
-
+End-to-end QA automation for Voyadores (DEV environment),
+covering login, validation, and post-login dashboard access.
 
 ---
 
@@ -11,24 +10,43 @@ It validates critical authentication flows and UI behaviors using Chromium (Chro
 
 The following login-related scenarios are automated:
 
-- ✅ Login page loads correctly
-- ✅ Username & Password fields visibility
-- ✅ Keep Me Logged In checkbox toggle
-- ✅ Password visibility (eye icon) toggle
-- ✅ Validation errors for empty credentials
-- ✅ Forgot Password flow (open reset page)
-- ✅ Return to Login from Forgot Password
-- ✅ Successful login with valid credentials
-- ✅ Logout and redirect back to login page
+- Login page loads correctly
+- Username & Password fields visibility
+- Keep Me Logged In checkbox toggle
+- Password visibility (eye icon) toggle
+- Validation errors for empty credentials
+- Forgot Password flow (open reset page)
+- Return to Login from Forgot Password
+- Successful login with valid credentials
+- Logout and redirect back to login page
 
 ---
 
 ## Tech Stack
 
-- **Playwright**
-- **Node.js**
-- **JavaScript**
-- **Chromium (Chrome only)**
+- Playwright
+- Node.js
+- dotenv
+
+---
+
+## Setup
+
+- Clone repository
+- Create '.env' from '.env.example'
+- Install dependencies
+
+---
+
+## Run Tests
+    npx playwright test
+
+---
+
+## Test Coverage
+- Login page validations
+- Authentication flow
+- Dashboard access verification
 
 ---
 
