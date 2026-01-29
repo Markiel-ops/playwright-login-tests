@@ -22,7 +22,7 @@ class LoginPage {
   }
 
   async goTo() {
-    await this.page.goto('/');
+    await this.page.goto('/login');
   }
 
   async openLogin() {
@@ -37,6 +37,20 @@ class LoginPage {
   async submit() {
     await this.submitButton.click();
   }
+
+  async logout() {
+  // Open user menu / avatar
+  await this.page.getByRole('button', {
+    name: /profile|account|user|avatar/i,
+  }).click();
+
+  // Click logout inside the menu
+  await this.page.getByRole('menuitem', {
+    name: /logout|sign out/i,
+  }).click();
+}
+
+
 }
 
 module.exports = { LoginPage };
