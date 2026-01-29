@@ -1,0 +1,65 @@
+{
+  "cookies": [
+    {
+      "name": "Flash.Information",
+      "value": "Login%20to%20continue%20with%20Voyadores",
+      "domain": ".voyadores.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__RequestVerificationToken",
+      "value": "BfbhrgA9W2K2qLHND4APtKuoHA2lxIJ9mBk5EBJTwQSbAi_Nt8Kwqfl-OdbD-cMo-eKDJl_30GZRr8iA8iA70-YjI4fyKDE-190ZEZBNgHo1",
+      "domain": "dev2-login.voyadores.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "timezone",
+      "value": "Asia%2FManila%20(UTC%2B8)",
+      "domain": ".voyadores.com",
+      "path": "/",
+      "expires": 1801213009,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "timezoneDate",
+      "value": "1%2F29%2F2026%2C%204%3A56%3A49%20PM",
+      "domain": ".voyadores.com",
+      "path": "/",
+      "expires": 1801213009,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.1.1829350813.1769677010",
+      "domain": ".voyadores.com",
+      "path": "/",
+      "expires": 1804237009.886243,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_726XKLB2E5",
+      "value": "GS2.1.s1769677009$o1$g0$t1769677010$j59$l0$h0",
+      "domain": ".voyadores.com",
+      "path": "/",
+      "expires": 1804237010.206463,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": []
+}
