@@ -1,8 +1,7 @@
 # Playwright login Automation Tests
 
 ## Overview
-End-to-end QA automation for Voyadores (DEV environment),
-covering login, validation, and post-login dashboard access.
+End-to-end QA automation covering login validation, authentication state reuse, and post-login dashboard access using Playwright.
 
 ---
 
