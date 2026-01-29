@@ -3,7 +3,7 @@ import { test, expect } from '@playwright/test';
 test.describe('Sentinel | Post-Auth Smoke', () => {
   test.use({ storageState: 'playwright/.auth/user.json' });
 
-  test('SSO authentication completes successfully', async ({ page }) => {
+  test('@smoke SSO authentication completes successfully', async ({ page }) => {
     await page.goto('/');
 
     // Assert we reached the SSO gateway successfully
