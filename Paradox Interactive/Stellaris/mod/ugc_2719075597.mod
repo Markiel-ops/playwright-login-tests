@@ -1,0 +1,18 @@
+name="DarkSpace"
+version="v4.*.*"
+tags={
+	"Spaceships"
+	"Species"
+	"Gameplay"
+	"Crisis"
+	"Shipset"
+	"Fallen Empire"
+	"Megastructure"
+	"Origin"
+	"Civic"
+	"Nomads"
+}
+picture="thumbnail.png"
+supported_version="v4.*.*"
+path="C:/Program Files (x86)/Steam/steamapps/workshop/content/281990/2719075597"
+remote_file_id="2719075597"

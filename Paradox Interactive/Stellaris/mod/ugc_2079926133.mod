@@ -1,0 +1,18 @@
+version="2.0"
+tags={
+	"Military"
+	"Spaceships"
+	"Graphics"
+	"Fixes"
+	"Gameplay"
+	"Warhammer"
+	"WH40K"
+	"Imperium of Man"
+	"Shipset"
+	"NSC2"
+}
+picture="thumbnail.png"
+name="We are the Imperial Navy NSC2 | Shipset for Stellaris 3.8+ and NSC2 Season 8"
+supported_version="3.*.*"
+path="C:/Program Files (x86)/Steam/steamapps/workshop/content/281990/2079926133"
+remote_file_id="2079926133"

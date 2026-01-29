@@ -1,0 +1,14 @@
+-- Log file for all messages not properly caught --
+
+18:55:52.031   WorldwideAutomatch2Service::OnHostComplete - we're not polling at the moment, ignoring
+18:56:02.919   WorldwideAutomatch2Service::OnHostComplete - we're not polling at the moment, ignoring
+18:56:28.780   Encoded slot size of 2204 too large
+19:09:54.538   WorldwideAutomatch2Service::OnHostComplete - we're not polling at the moment, ignoring
+19:09:54.545   Encoded slot size of 2072 too large
+19:45:00.778   NetworkManagerInternal::FlushJobs - flushing remaining (1) dynamic jobs:
+19:45:00.778   Dynamic job SetDataAsync still running
+19:45:01.389   NetworkManagerInternal waited 611 ms for async jobs to complete successfully
+19:45:01.389   NetworkManagerInternal::FlushJobs - flushing remaining (1) dynamic jobs:
+19:45:01.389   Dynamic job LogoutAsync still running
+19:45:02.206   NetworkManagerInternal waited 818 ms for async jobs to complete successfully
+19:45:02.388   AsyncJobDriver::~AsyncJobDriver() - dynamically allocated job ChatChannelCache is still running

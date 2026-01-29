@@ -1,0 +1,151 @@
+#define PIXEL_SHADER
+#define SHADERQUALITY_HIGH
+#define MASKING
+#define PDX_DIRECTX_11
+
+#define PDX_POSITION SV_POSITION
+#define PDX_COLOR SV_TARGET
+
+#define mod( X, Y ) ( X % Y )
+
+#define FIX_FLIPPED_UV( X ) ( X )
+
+float3x3 CastTo3x3( in float4x4 M )
+{
+	return (float3x3)M;
+}
+#define Create3x3 float3x3
+#define GetMatrixData( Matrix, row, col ) ( Matrix [ row ] [ col ] )
+
+float2 vec2(float vValue) { return float2(vValue, vValue); }
+float3 vec3(float vValue) { return float3(vValue, vValue, vValue); }
+float4 vec4(float vValue) { return float4(vValue, vValue, vValue, vValue); }
+
+
+struct STextureSampler2D
+{
+    Texture2D 		_Texture;
+    SamplerState 	_Sampler;
+};
+STextureSampler2D CreateSampler2D( Texture2D Texture, SamplerState Sampler )
+{
+    STextureSampler2D ret = { Texture, Sampler };
+    return ret;
+}
+
+struct STextureSamplerCube
+{
+    TextureCube 	_Texture;
+    SamplerState 	_Sampler;
+};
+STextureSamplerCube CreateSamplerCube( TextureCube Texture, SamplerState Sampler )
+{
+    STextureSamplerCube ret = { Texture, Sampler };
+    return ret;
+}
+
+#define TextureSampler2D STextureSampler2D
+
+#define sampler2DShadow STextureSampler2D
+#define sampler2D STextureSampler2D
+
+#define tex2D(samp,uv) samp._Texture.Sample(samp._Sampler, uv)
+#define tex2Dlod(samp,uv_lod) samp._Texture.SampleLevel(samp._Sampler, (uv_lod).xy, (uv_lod).w)
+#define tex2Dlod0(samp,uv_lod) samp._Texture.SampleLevel(samp._Sampler, (uv_lod).xy, 0)
+#define tex2Dbias(samp,uv_bias) samp._Texture.SampleBias(samp._Sampler, (uv_bias).xy, (uv_bias).w)
+#define tex2Dproj(samp,uv_proj) samp._Texture.SampleLevel(samp._Sampler, (uv_proj).xy / (uv_proj).w, 0)
+#define tex2Dgrad(samp,uv,ddx,ddy) samp._Texture.SampleGrad(samp._Sampler, uv, ddx, ddy)
+
+#define texCUBE(samp,uv) samp._Texture.Sample(samp._Sampler, uv)
+#define texCUBElod(samp,uv_lod) samp._Texture.SampleLevel(samp._Sampler, (uv_lod).xyz, (uv_lod).w)
+#define texCUBEbias(samp,uv_bias) samp._Texture.SampleBias(samp._Sampler, (uv_bias).xyz, (uv_bias).w)
+
+#define uintIfSupported uint
+
+Texture2D MapTexture_Texture : register(t0);
+SamplerState MapTexture_Sampler : register(s0);
+#define MapTexture CreateSampler2D(MapTexture_Texture, MapTexture_Sampler)
+Texture2D MaskingTexture_Texture : register(t5);
+SamplerState MaskingTexture_Sampler : register(s5);
+#define MaskingTexture CreateSampler2D(MaskingTexture_Texture, MaskingTexture_Sampler)
+cbuffer dx11_cb0 : register(b0)
+{
+	float4x4 WorldViewProjectionMatrix;
+	float4 Color;
+	float2 Offset;
+	float2 NextOffset;
+	float Time;
+	float AnimationTime;
+}
+struct VS_INPUT
+{
+	float3 vPosition : POSITION;
+	float2 vTexCoord : TEXCOORD0;
+};
+struct VS_OUTPUT
+{
+	float4 vPosition : PDX_POSITION;
+	float2 vScreenPos : TEXCOORD3;
+	float2 vTexCoord : TEXCOORD0;
+#ifdef MASKING
+	float2 vMaskingTexCoord : TEXCOORD2;
+#endif
+};
+float4 main( VS_OUTPUT v ) : PDX_COLOR
+		{
+			const float vFadeoutHeight = 5;
+			const float vFadeoutPosition = 0.95;
+			const float vMinimumStatic = 0.03;
+			float vAmountStatic = saturate(v.vTexCoord.y - vFadeoutPosition) * vFadeoutHeight + vMinimumStatic;
+
+			const float vNumberOfScanlines = 4;
+			const float vScanlineSpeed = 0.2;
+			const float vScanlineExposure = 0.75;
+			float vGradientScanline = 1 - mod(((v.vTexCoord.y) * vNumberOfScanlines + Time * vScanlineSpeed), 1);
+			float vWavyScanline = saturate(vGradientScanline * (1 - vGradientScanline) + vScanlineExposure);
+
+			// Sample texture, offset X by static.
+			float2 texCoord = v.vTexCoord;
+			texCoord.x += (vGradientScanline - 0.5) * vAmountStatic * 0.2;
+			float4 TextureColor = tex2D( MapTexture, texCoord );
+
+			// The regular portrait with colours
+			float4 PortraitColor = tex2D( MapTexture, v.vTexCoord );
+
+			// Edge detection in 2 directions.
+			const float vEdgeThickness = 0.008;
+			const float vEdgeBoost = 2;
+			const float vEdgeContrast = 1;
+			float4 SampleH = tex2D( MapTexture, texCoord + float2(vEdgeThickness, 0));
+			float4 SampleV = tex2D( MapTexture, texCoord + float2(0, vEdgeThickness));
+			float4 SampleHDiff = abs(TextureColor - SampleH);
+			float4 SampleVDiff = abs(TextureColor - SampleV);
+			float4 EdgeAmount = max(SampleHDiff, SampleVDiff);
+			// Use channel with strongest difference.
+			float vEdgeAmount = max(EdgeAmount.r, max(EdgeAmount.g, max(EdgeAmount.b, EdgeAmount.a)));
+			vEdgeAmount = pow(vEdgeAmount * vEdgeBoost, vEdgeContrast);
+
+			// Make Edge cyan colored.
+			const float4 vEdgeColorBoost = float4(0.5, 1, 0.5, 0.51);
+			float4 EdgesOverlay = saturate(vEdgeAmount * vEdgeColorBoost);
+
+			// Get Luminosity of texture.
+			float maxChannel = max(TextureColor.r, max(TextureColor.g, TextureColor.b));
+			const float3 ShadowColor = float3(0.01, 0.08, 0.08);
+			const float3 HighlightColor = float3(0.05, 0.2, 0.2);
+			float4 Fill;
+			Fill.rgb = lerp(ShadowColor, HighlightColor, maxChannel);
+			Fill.a = TextureColor.a * maxChannel;
+
+			float4 OutColor = PortraitColor + Fill + EdgesOverlay * 0.2;
+			OutColor *= Color;
+
+		#ifdef MASKING
+			// Untested in this shader...
+			float4 MaskColor = tex2D( MaskingTexture, v.vMaskingTexCoord );
+			OutColor.a *= MaskColor.a;
+		#endif
+
+			return OutColor;
+		}
+	

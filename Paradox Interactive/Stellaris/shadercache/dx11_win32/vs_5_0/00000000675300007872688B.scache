@@ -1,0 +1,442 @@
+#define VERTEX_SHADER
+#define SHADERQUALITY_HIGH
+#define MASKING
+#define PDX_DIRECTX_11
+
+#define PDX_POSITION SV_POSITION
+#define PDX_COLOR SV_TARGET
+
+#define mod( X, Y ) ( X % Y )
+
+#define FIX_FLIPPED_UV( X ) ( X )
+
+float3x3 CastTo3x3( in float4x4 M )
+{
+	return (float3x3)M;
+}
+#define Create3x3 float3x3
+#define GetMatrixData( Matrix, row, col ) ( Matrix [ row ] [ col ] )
+
+float2 vec2(float vValue) { return float2(vValue, vValue); }
+float3 vec3(float vValue) { return float3(vValue, vValue, vValue); }
+float4 vec4(float vValue) { return float4(vValue, vValue, vValue, vValue); }
+
+
+struct STextureSampler2D
+{
+    Texture2D 		_Texture;
+    SamplerState 	_Sampler;
+};
+STextureSampler2D CreateSampler2D( Texture2D Texture, SamplerState Sampler )
+{
+    STextureSampler2D ret = { Texture, Sampler };
+    return ret;
+}
+
+struct STextureSamplerCube
+{
+    TextureCube 	_Texture;
+    SamplerState 	_Sampler;
+};
+STextureSamplerCube CreateSamplerCube( TextureCube Texture, SamplerState Sampler )
+{
+    STextureSamplerCube ret = { Texture, Sampler };
+    return ret;
+}
+
+#define TextureSampler2D STextureSampler2D
+
+#define sampler2DShadow STextureSampler2D
+#define sampler2D STextureSampler2D
+
+#define tex2D(samp,uv) samp._Texture.Sample(samp._Sampler, uv)
+#define tex2Dlod(samp,uv_lod) samp._Texture.SampleLevel(samp._Sampler, (uv_lod).xy, (uv_lod).w)
+#define tex2Dlod0(samp,uv_lod) samp._Texture.SampleLevel(samp._Sampler, (uv_lod).xy, 0)
+#define tex2Dbias(samp,uv_bias) samp._Texture.SampleBias(samp._Sampler, (uv_bias).xy, (uv_bias).w)
+#define tex2Dproj(samp,uv_proj) samp._Texture.SampleLevel(samp._Sampler, (uv_proj).xy / (uv_proj).w, 0)
+#define tex2Dgrad(samp,uv,ddx,ddy) samp._Texture.SampleGrad(samp._Sampler, uv, ddx, ddy)
+
+#define texCUBE(samp,uv) samp._Texture.Sample(samp._Sampler, uv)
+#define texCUBElod(samp,uv_lod) samp._Texture.SampleLevel(samp._Sampler, (uv_lod).xyz, (uv_lod).w)
+#define texCUBEbias(samp,uv_bias) samp._Texture.SampleBias(samp._Sampler, (uv_bias).xyz, (uv_bias).w)
+
+#define uintIfSupported uint
+
+cbuffer dx11_cb1 : register(b1)
+{
+	float4x4 _TextMatrix_;
+	float4 _TextModColor_;
+}
+struct VS_INPUT
+{
+	float3 vPosition : POSITION;
+	float2 vTexCoord : TEXCOORD0;
+};
+struct VS_INPUT_PDXMESHSTANDARD
+{
+	float3 vPosition : POSITION;
+	float3 vNormal : TEXCOORD0;
+	float4 vTangent : TEXCOORD1;
+	float2 vUV0 : TEXCOORD2;
+#ifdef PDX_MESH_UV1
+	float2 vUV1 : TEXCOORD3;
+#endif
+};
+struct VS_INPUT_PDXMESHSTANDARD_SKINNED
+{
+	float3 vPosition : POSITION;
+	float3 vNormal : TEXCOORD0;
+	float4 vTangent : TEXCOORD1;
+	float2 vUV0 : TEXCOORD2;
+#ifdef PDX_MESH_UV1
+	float2 vUV1 : TEXCOORD3;
+#endif
+	uint4 vBoneIndex : TEXCOORD4;
+	float3 vBoneWeight : TEXCOORD5;
+};
+struct VS_OUTPUT_PDXMESHSTANDARD
+{
+	float4 vPosition : PDX_POSITION;
+	float3 vNormal : TEXCOORD0;
+	float3 vTangent : TEXCOORD1;
+	float3 vBitangent : TEXCOORD2;
+	float2 vUV0 : TEXCOORD3;
+	float2 vUV1 : TEXCOORD4;
+	float4 vPos : TEXCOORD5;
+	float4 vSphere : TEXCOORD6;
+	float3 vObjectNormal : TEXCOORD7;
+};
+struct VS_OUTPUT_PDXMESHSHADOW
+{
+	float4 vPosition : PDX_POSITION;
+	float4 vDepthUV0 : TEXCOORD0;
+};
+struct VS_INPUT_DEBUGNORMAL
+{
+	float3 vPosition : POSITION;
+	float3 vNormal : TEXCOORD0;
+	float4 vTangent : TEXCOORD1;
+	float2 vUV0 : TEXCOORD2;
+	float2 vUV1 : TEXCOORD3;
+	float vOffset : TEXCOORD6;
+};
+struct VS_INPUT_DEBUGNORMAL_SKINNED
+{
+	float3 vPosition : POSITION;
+	float3 vNormal : TEXCOORD0;
+	float4 vTangent : TEXCOORD1;
+	float2 vUV0 : TEXCOORD2;
+	float2 vUV1 : TEXCOORD3;
+	uint4 vBoneIndex : TEXCOORD4;
+	float3 vBoneWeight : TEXCOORD5;
+	float vOffset : TEXCOORD6;
+};
+struct VS_OUTPUT_DEBUGNORMAL
+{
+	float4 vPosition : PDX_POSITION;
+	float2 vUV0 : TEXCOORD0;
+	float vOffset : TEXCOORD1;
+};
+struct VS_OUTPUT_PDXMESHNAVIGATIONBUTTON
+{
+	float4 vPosition : PDX_POSITION;
+	float2 vUV0 : TEXCOORD0;
+	float4 vPos : TEXCOORD1;
+};
+struct VS_OUTPUT_PDXMESHSHIELD
+{
+	float4 vPosition : PDX_POSITION;
+	float2 vUV0 : TEXCOORD0;
+	float4 vPos : TEXCOORD1;
+};
+struct VS_DEFAULT_TEXT_INPUT
+{
+	float4 vPosition : POSITION;
+	float2 vTexCoord : TEXCOORD0;
+	float4 vColor : COLOR;
+};
+struct VS_DEFAULT_TEXT_OUTPUT
+{
+	float4 vPosition : PDX_POSITION;
+	float2 vTexCoord : TEXCOORD0;
+	float4 vColor : TEXCOORD1;
+};
+struct VS_OUTPUT
+{
+	float4 vPosition : PDX_POSITION;
+	float2 vTexCoord : TEXCOORD0;
+#ifdef ANIMATED
+	float4 vAnimatedTexCoord : TEXCOORD1;
+#endif
+#ifdef MASKING
+	float2 vMaskingTexCoord : TEXCOORD2;
+#endif
+};
+// --------------------------------------------------------------
+// ------------------    Light          -------------------------
+// --------------------------------------------------------------
+static const float3 SUN_DIFFUSE					= float3( 0.226f, 0.182f, 0.36f );
+
+
+// --------------------------------------------------------------
+// ------------------    HDR          	-------------------------
+// --------------------------------------------------------------
+static const float3 LUMINANCE_VECTOR  			= float3(0.2125f, 0.7154f, 0.0721f);
+
+
+// --------------------------------------------------------------
+// ------------------    Specular       -------------------------
+// --------------------------------------------------------------
+static const float SPECULAR_WIDTH 				= 15.0f;
+static const float SPECULAR_MULTIPLIER			= 1.0f;
+static const float MAP_SPECULAR_WIDTH 			= 15.0f;
+static const float MAP_SPECULAR_MULTIPLIER		= 0.05f;
+
+
+// --------------------------------------------------------------
+// ------------------       ROADS       -------------------------
+// --------------------------------------------------------------
+static const float ROAD_TILE_FREQ				= 16.0f;
+static const float ROAD_FADE_START				= 1.0f;
+static const float ROAD_FADE_END				= 4.0f;
+
+static const float ROAD_MAXIMAP_TILE_FREQ		= 30.f;
+static const float ROAD_MAXIMAP_EXTRA_WIDTH		= 0.3f;
+
+static const float ROAD_MINIMAP_TILE_FREQ		= 15.f;
+static const float ROAD_MINIMAP_EXTRA_WIDTH		= 0.0f;
+
+
+// --------------------------------------------------------------
+// ------------------       COMBAT       ------------------------
+// --------------------------------------------------------------
+static const float COMBAT_OUTSIDE_BOUNDS_BRIGHTNESS	= 0.45f;
+static const float COMBAT_INSIDE_BOUNDS_BRIGHTNESS	= 0.99f;
+static const float COMBAT_BOUNDS_SHARPNESS 			= 0.1f;
+static const float COMBAT_BOUNDS_BORDER_SHARPNESS	= 3.0f;
+
+
+// --------------------------------------------------------------
+// ------------------    WATER          -------------------------
+// --------------------------------------------------------------
+static const float 	WATER_TILE					= 1.8f;
+static const float 	WATER_TIME_SCALE			= 0.03f;
+static const float	WATER_FOG_START				= 16.5f;
+static const float	WATER_FOG_END				= 19.7f;
+
+static const float WATER_HEIGHT 				= 20.0f;
+static const float WATER_HEIGHT_RECP 			= 1.0f / WATER_HEIGHT;
+static const float WATER_HEIGHT_RECP_SQUARED 	= WATER_HEIGHT_RECP * WATER_HEIGHT_RECP;
+
+static const float HEL_WATER_SCALE				= 1.2f;
+static const float HEL_WATER_SPEED 				= 0.03f;
+static const float HEL_WATER_GLOW_NOISE_SPEED	= 0.08f;
+static const float HEL_WATER_GLOW_NOISE_SCALE   = 0.006f;
+
+
+// --------------------------------------------------------------
+// ------------------    SHADOW         -------------------------
+// --------------------------------------------------------------
+static const float  SHADOW_WEIGHT_TERRAIN    	= 1.0f;
+static const float  SHADOW_WEIGHT_WATER   		= 1.0f;
+static const float  SHADOW_WEIGHT_RIVER   		= 1.0f;
+static const float  SHADOW_WEIGHT_TREE   		= 1.0f;
+static const float  SHADOW_WEIGHT_ROAD   		= 1.0f;
+static const float  SHADOW_WEIGHT_MESH   		= 1.0f;
+
+// --------------------------------------------------------------
+// -------------    RIM LIGHT (PDXMESH)   -----------------------
+// --------------------------------------------------------------
+static const float 	RIM_START 		= 0.6f;
+static const float 	RIM_END 		= 1.0f;
+static const float4 RIM_COLOR 		= float4( 0.3f, 0.6f, 0.8f, 0.0f );
+
+// --------------------------------------------------------------
+// -------------    GREYING OUT   -------------------------------
+// --------------------------------------------------------------
+static const float3 GREY_OUT_VECTOR     = float3( 0.212671f, 0.715160f, 0.072169f );
+static const float GREY_OUT_GREYNESS    = 0.85f;    // [0.0f, 1.0f] 0.0f - the tint is not changed, 1.0f - the tint is completely removed
+static const float GREY_OUT_BRIGHTNESS  = 0.75;     // [0.0f, 1.0f] 0.0f - completely black, 1.0f - the same brighnes as before graying out
+
+float3 ToGamma(float3 aLinear)
+{
+	return pow(abs(aLinear), vec3(1.0/2.2));
+}
+
+float3 ToLinear(float3 aGamma)
+{
+	return pow(abs(aGamma), vec3(2.2));
+}
+
+float4 ToLinear(float4 aGamma)
+{
+	return float4(ToLinear(aGamma.rgb), aGamma.a);
+}
+
+float Rand2DTo1D(float2 value, float2 dir)
+{
+    float2 smallValue = sin(value);
+    float rand = dot(smallValue, dir);
+    rand = frac(sin(rand) * 143745.3413f);
+    return rand;
+}
+
+float Rand2DTo1D(float2 value)
+{
+	return Rand2DTo1D(value, float2(15.42f, 81.344f));
+}
+
+float2 Rand2DTo2D(float2 value)
+{
+    return float2(Rand2DTo1D(value, float2(13.251f, 76.129f)), Rand2DTo1D(value, float2(51.117f, 81.524f) ) );
+}
+
+float2 VoronoiNoise2D(float3 worldPos, float cellSize, float2 offsetPos)
+{
+    float2 value = worldPos.xy / cellSize ;
+    value += offsetPos;
+    float2 baseCell = floor(value);
+    float minDistToCell = 200.0f;
+    float2 closestCell;
+	
+    for (int x = -1; x <= 1; x++)
+    {
+        for (int y = -1; y <= 1; y++)
+        {
+            float2 cell = baseCell + float2(x, y);
+			float2 cellPos = cell + Rand2DTo2D(cell);
+            float distToCell = length(cellPos - value);
+            if (distToCell < minDistToCell)
+            {
+                minDistToCell = distToCell;
+                closestCell = cell;
+            }
+        }
+    }
+    return float2(minDistToCell, Rand2DTo1D(closestCell) );
+}
+
+float2 VoronoiNoise2D(float3 worldPos, float cellSize)
+{
+	return VoronoiNoise2D(worldPos, cellSize, float2(0.0f, 0.0f));
+}
+
+struct STriplanarMapping
+	{
+	float2 _UvX;
+	float2 _UvY;
+	float2 _UvZ;
+	float2 _FlipX;
+	float2 _FlipY;
+	float2 _FlipZ;
+	float3 _BlendFactor;
+	};
+
+STriplanarMapping CalcTriplanarMapping( in float3 ObjectNormal, in float3 ObjectSpacePos, in float TilingScale ) 
+{
+	// From: https://bgolus.medium.com/normal-mapping-for-a-triplanar-shader-10bf39dca05a but slightly adjusted to fit our purpose
+	STriplanarMapping Out;
+	//Calculate tri-planar blend factors
+	Out._BlendFactor.x = saturate(pow(abs( ObjectNormal.x ), 3.0f ) );
+	Out._BlendFactor.y = saturate(pow(abs( ObjectNormal.y ), 3.0f ) );
+	Out._BlendFactor.z = saturate(pow(abs( ObjectNormal.z ), 3.0f ) );
+	Out._BlendFactor /= max( dot( Out._BlendFactor, vec3( 1.0f ) ), 0.0001f);
+
+	Out._FlipX = float2( sign( ObjectNormal.x ), -1.0f );
+	Out._FlipY = float2( 1.0f, -sign( ObjectNormal.y ) );
+	Out._FlipZ = float2( -sign( ObjectNormal.z ), -1.0f );
+
+	//float TilingScale = 0.1f; //Scale the tiling value down a bit so that artists have an easier value to tweak
+	//The Uvs have been swapped around to make a directional pattern look better
+	Out._UvX = float2( ObjectSpacePos.z, ObjectSpacePos.y ) * Out._FlipX * TilingScale;
+	Out._UvY = float2( ObjectSpacePos.z, ObjectSpacePos.x ) * Out._FlipY * TilingScale;
+	Out._UvZ = float2( ObjectSpacePos.x, ObjectSpacePos.y ) * Out._FlipZ * TilingScale;
+
+	return Out;
+}
+
+float4 SampleColorTriplanar( in sampler2D Sampler, in STriplanarMapping Mapping )
+{
+    float4 color = vec4( 0.0f );
+    if ( Mapping._BlendFactor.x > 0.0f )
+	{
+        color += tex2D( Sampler, Mapping._UvX ) * Mapping._BlendFactor.x;
+	}
+    if ( Mapping._BlendFactor.y > 0.0f )
+	{
+        color += tex2D( Sampler, Mapping._UvY ) * Mapping._BlendFactor.y;
+	}
+    if ( Mapping._BlendFactor.z > 0.0f )
+	{
+        color += tex2D( Sampler, Mapping._UvZ ) * Mapping._BlendFactor.z;
+	}
+    return color;
+}
+
+bool AreEqual( in float4 Left, in float4 Right, in float Precision )
+{
+	return ( ( abs( Left.x - Right.x ) < Precision )
+		&& ( abs( Left.y - Right.y ) < Precision )
+		&& ( abs( Left.z - Right.z ) < Precision )
+		&& ( abs( Left.w - Right.w ) < Precision ) );
+}
+
+VS_DEFAULT_TEXT_OUTPUT DefaultTextVertexShader( VS_DEFAULT_TEXT_INPUT v )
+	{
+		VS_DEFAULT_TEXT_OUTPUT Out;
+
+		Out.vPosition  	= mul( _TextMatrix_, v.vPosition );
+		Out.vTexCoord  	= v.vTexCoord;
+		Out.vColor		= v.vColor * _TextModColor_;
+
+		return Out;
+	}
+	//-------------------------------
+	// Greying out ------------------
+	//-------------------------------
+	
+	float3 GreyOutDot( in float3 source )
+	{
+		float grey = dot( source.rgb, GREY_OUT_VECTOR );
+		return float3( grey, grey, grey );
+	}
+	
+	float3 GreyOutDotPow2( in float3 source )
+	{
+		float grey = dot( source.rgb, GREY_OUT_VECTOR );
+		grey = pow( grey, 2 );
+		return float3( grey, grey, grey );
+	}
+	
+	float3 GreyOutDotLerp( in float3 source, in float scalar )
+	{
+		float grey = dot( source.rgb, GREY_OUT_VECTOR );
+		return lerp( float3( grey, grey, grey ), source, scalar );
+	}
+
+	float3 GreyOutLuminosity( in float3 source, in float factor, in float brightness )
+	{
+		float grey = GREY_OUT_VECTOR.r * source.r + GREY_OUT_VECTOR.g * source.g + GREY_OUT_VECTOR.b * source.b;
+
+		float3 result;
+		result.r = grey * factor + source.r * ( 1.0f - factor );
+		result.g = grey * factor + source.g * ( 1.0f - factor );
+		result.b = grey * factor + source.b * ( 1.0f - factor );
+
+		return result * brightness;
+	}
+
+float4x4 CreateScaleMatrix(float3 scale)
+	{
+		return float4x4(
+				scale.x, 0.0, 0.0f, 0.0f, 
+				0.0f, scale.y, 0.0f, 0.0f, 
+				0.0f, 0.0f, scale.z, 0.0f, 
+				0.0f, 0.0f, 0.0f, 1.0f 
+			);
+	}
+	VS_DEFAULT_TEXT_OUTPUT main( VS_DEFAULT_TEXT_INPUT v )
+		{
+			return DefaultTextVertexShader( v );
+		}
+	

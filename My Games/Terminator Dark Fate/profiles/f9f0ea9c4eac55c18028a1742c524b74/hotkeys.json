@@ -1,0 +1,74 @@
+{
+    "Presets": [
+        {
+            "Abilities": {
+                "slot0": "F1",
+                "slot1": "F2",
+                "slot2": "F3",
+                "slot3": "F4"
+            },
+            "Camera": {
+                "moveBackward": "S",
+                "moveDown": "PAGE UP",
+                "moveForward": "W",
+                "moveLeft": "A",
+                "moveRight": "D",
+                "moveUp": "INSERT",
+                "rotateLeft": "DELETE",
+                "rotateRight": "PAGE DOWN",
+                "zoomIn": "HOME",
+                "zoomOut": "END"
+            },
+            "Game": {
+                "slot0": "Q",
+                "slot1": "E",
+                "slot10": "B",
+                "slot11": "N",
+                "slot2": "R",
+                "slot3": "F",
+                "slot4": "T",
+                "slot5": "G",
+                "slot6": "Z",
+                "slot7": "X",
+                "slot8": "C",
+                "slot9": "V"
+            }
+        },
+        {
+            "Abilities": {
+                "slot0": "F1",
+                "slot1": "F2",
+                "slot2": "F3",
+                "slot3": "F4"
+            },
+            "Camera": {
+                "moveBackward": "DOWN",
+                "moveDown": "PAGE UP",
+                "moveForward": "UP",
+                "moveLeft": "LEFT",
+                "moveRight": "RIGHT",
+                "moveUp": "INSERT",
+                "rotateLeft": "DELETE",
+                "rotateRight": "PAGE DOWN",
+                "zoomIn": "HOME",
+                "zoomOut": "END"
+            },
+            "Game": {
+                "slot0": "Q",
+                "slot1": "W",
+                "slot10": "G",
+                "slot11": "H",
+                "slot2": "E",
+                "slot3": "R",
+                "slot4": "T",
+                "slot5": "Y",
+                "slot6": "A",
+                "slot7": "S",
+                "slot8": "D",
+                "slot9": "F"
+            }
+        }
+    ],
+    "SelectedIndex": 0,
+    "Version": 4
+}

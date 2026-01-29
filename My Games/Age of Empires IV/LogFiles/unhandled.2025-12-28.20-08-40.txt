@@ -1,0 +1,12 @@
+-- Log file for all messages not properly caught --
+
+20:09:19.173   WorldwideAutomatch2Service::OnHostComplete - we're not polling at the moment, ignoring
+20:09:22.715   WorldwideAutomatch2Service::OnHostComplete - we're not polling at the moment, ignoring
+20:10:58.149   Encoded slot size of 2204 too large
+20:20:48.580   WorldwideAutomatch2Service::OnHostComplete - we're not polling at the moment, ignoring
+20:22:03.689   Encoded slot size of 2196 too large
+20:23:42.411   NetworkManagerInternal::FlushJobs - flushing remaining (4) dynamic jobs:
+20:23:42.411   Dynamic job SetDataAsync still running
+20:23:42.411   Dynamic job SaveOfflineUserDataJob still running
+20:23:42.411   Dynamic job MatchHistoryCache still running
+20:23:42.411   Dynamic job WorldwideGetRelayServerQosInfoAsync still running

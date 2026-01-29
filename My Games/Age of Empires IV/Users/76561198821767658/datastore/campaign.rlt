@@ -1,0 +1,15 @@
+LuaDataStore =  
+{
+	campaign =  
+	{
+		selected_subcampaign = "english",
+		subcampaign_seens =  
+		{
+			english = true,
+		},
+		created = true,
+		loaded = true,
+		version = 2.00000,
+	},
+}
+

@@ -1,0 +1,10 @@
+struct VS_OUTPUT
+{
+	float4 vPosition : SV_POSITION;
+	float4 vColor : TEXCOORD1;
+};
+
+float4 main( VS_OUTPUT v ) : SV_TARGET
+{
+	return v.vColor;
+}

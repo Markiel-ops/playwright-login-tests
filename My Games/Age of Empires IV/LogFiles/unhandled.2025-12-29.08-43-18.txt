@@ -1,0 +1,25 @@
+-- Log file for all messages not properly caught --
+
+08:44:12.808   WorldwideAutomatch2Service::OnHostComplete - we're not polling at the moment, ignoring
+08:44:15.272   WorldwideAutomatch2Service::OnHostComplete - we're not polling at the moment, ignoring
+08:45:03.513   Encoded slot size of 2304 too large
+08:55:51.961   WorldwideAutomatch2Service::OnHostComplete - we're not polling at the moment, ignoring
+08:59:48.004   NetworkManagerInternal::FlushJobs - flushing remaining (11) dynamic jobs:
+08:59:48.004   Dynamic job SetDataAsync still running
+08:59:48.004   Dynamic job ChallengeProgressCache still running
+08:59:48.004   Dynamic job CommunityEventChallengeProgressCache still running
+08:59:48.004   Dynamic job CommunityEventChallengeProgressCache still running
+08:59:48.004   Dynamic job CommunityEventChallengeProgressCache still running
+08:59:48.004   Dynamic job CommunityEventChallengeProgressCache still running
+08:59:48.004   Dynamic job CommunityEventChallengeProgressCache still running
+08:59:48.004   Dynamic job CommunityEventChallengeProgressCache still running
+08:59:48.004   Dynamic job CommunityEventChallengeProgressCache still running
+08:59:48.004   Dynamic job MatchHistoryCache still running
+08:59:48.004   Dynamic job MatchSinglePlayerHistoryCache still running
+08:59:53.005   NetworkManagerInternal::FlushJobs - flushing remaining (5) dynamic jobs:
+08:59:53.005   Dynamic job MatchSinglePlayerHistoryCache still running
+08:59:53.005   Dynamic job SaveOfflineUserDataJob still running
+08:59:53.005   Dynamic job MatchHistoryCache still running
+08:59:53.005   Dynamic job SetDataAsync still running
+08:59:53.005   Dynamic job LogoutAsync still running
+08:59:58.060   AsyncJobDriver::~AsyncJobDriver() - dynamically allocated job SaveOfflineUserDataJob is still running

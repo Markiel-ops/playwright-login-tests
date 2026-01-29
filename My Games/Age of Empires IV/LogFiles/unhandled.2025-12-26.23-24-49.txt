@@ -1,0 +1,25 @@
+-- Log file for all messages not properly caught --
+
+23:25:35.124   WorldwideAutomatch2Service::OnHostComplete - we're not polling at the moment, ignoring
+23:25:55.425   NetworkManager::DispatchEvents() - Warning - Time between calls was 3507 ms
+23:29:53.944   NetworkManager::DispatchEvents() - Warning - Time between calls was 4294 ms
+23:29:55.463   NetworkManagerInternal::FlushJobs - flushing remaining (13) dynamic jobs:
+23:29:55.463   Dynamic job SetDataAsync still running
+23:29:55.463   Dynamic job WorldwideCloudGetFileCachedAsync still running
+23:29:55.463   Dynamic job WorldWideSetPresenceAsync still running
+23:29:55.463   Dynamic job WorldwideSetPresencePropertyAsync still running
+23:29:55.463   Dynamic job CommunityEventChallengeProgressCache still running
+23:29:55.463   Dynamic job CommunityEventChallengeProgressCache still running
+23:29:55.463   Dynamic job CommunityEventChallengeProgressCache still running
+23:29:55.463   Dynamic job CommunityEventChallengeProgressCache still running
+23:29:55.463   Dynamic job CommunityEventChallengeProgressCache still running
+23:29:55.463   Dynamic job CommunityEventChallengeProgressCache still running
+23:29:55.463   Dynamic job CommunityEventChallengeProgressCache still running
+23:29:55.463   Dynamic job MatchHistoryCache still running
+23:29:55.463   Dynamic job MatchSinglePlayerHistoryCache still running
+23:30:00.466   NetworkManagerInternal::FlushJobs - flushing remaining (4) dynamic jobs:
+23:30:00.466   Dynamic job MatchHistoryCache still running
+23:30:00.466   Dynamic job MatchSinglePlayerHistoryCache still running
+23:30:00.466   Dynamic job SetDataAsync still running
+23:30:00.466   Dynamic job LogoutAsync still running
+23:30:02.462   NetworkManagerInternal waited 1998 ms for async jobs to complete successfully

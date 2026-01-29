@@ -1,0 +1,31 @@
+"Graphics"=
+{
+	"display_mode"=
+	{
+		value="borderless_fullscreen"
+		version=0
+	}
+	"display_index"=
+	{
+		value="0"
+		version=0
+	}
+	"vsync"=
+	{
+		enabled=yes
+		version=0
+	}
+	"fullscreen_resolution"=
+	{
+		value="1920x1080"
+		version=0
+	}
+}
+"System"=
+{
+	"language"=
+	{
+		value="l_english"
+		version=0
+	}
+}

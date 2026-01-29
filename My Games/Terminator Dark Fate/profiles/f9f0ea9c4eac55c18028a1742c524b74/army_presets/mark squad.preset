@@ -1,0 +1,1197 @@
+{
+    "faction": "founders",
+    "units": [
+        {
+            "crew": "bc8d26e6-6687-4661-896f-142ff10f8c52",
+            "experience": 0,
+            "presetType": "Base",
+            "sysname": "Fnd_blackhawk_mp",
+            "type": "utHeli",
+            "uuid": "8e6f5bed-cb01-4134-a253-e4e5fbbe5567",
+            "weaponSlots": [
+                {
+                    "itemSysname": "hellfire_item",
+                    "slotSysname": "blackhawk_weapon_slot",
+                    "type": "Standard"
+                },
+                {
+                    "itemSysname": "",
+                    "slotSysname": "heli_mounted_gun_slot",
+                    "type": "Standard"
+                }
+            ]
+        },
+        {
+            "baseUnit": "8e6f5bed-cb01-4134-a253-e4e5fbbe5567",
+            "crew": "cccfa17a-bdf4-4a27-b1bc-c3e55d74cdd3",
+            "experience": 0,
+            "presetType": "Modified",
+            "sysname": "Fnd_blackhawk_mp",
+            "type": "utHeli",
+            "uuid": "90e175b1-152f-4cb9-a968-db64855383c6",
+            "weaponSlots": [
+                {
+                    "itemSysname": "hellfire_item",
+                    "slotSysname": "blackhawk_weapon_slot",
+                    "type": "Standard"
+                },
+                {
+                    "itemSysname": "",
+                    "slotSysname": "heli_mounted_gun_slot",
+                    "type": "Standard"
+                }
+            ]
+        },
+        {
+            "crew": "28529147-c743-40d3-87f0-1d482d6f30ed",
+            "experience": 0,
+            "presetType": "Base",
+            "sysname": "Fnd_HIMARS",
+            "type": "utCar",
+            "uuid": "6668a6d2-8503-4bea-a71c-b29143fd1d45"
+        },
+        {
+            "crew": "c1e305b1-4e9d-4333-a149-dd971fffbf16",
+            "experience": 0,
+            "presetType": "Base",
+            "sysname": "Fnd_m109",
+            "type": "utTank",
+            "uuid": "c014d93e-81aa-43e5-a4c7-bffbba2df417",
+            "weaponSlots": [
+                {
+                    "itemSysname": "",
+                    "slotSysname": "mounted_gun_slot",
+                    "type": "Standard"
+                }
+            ]
+        },
+        {
+            "crew": "c1e305b1-4e9d-4333-a149-dd971fffbf16",
+            "experience": 0,
+            "presetType": "Base",
+            "sysname": "Fnd_abrams",
+            "type": "utTank",
+            "uuid": "8074d635-84e6-4f7e-aae2-fe87104ef76f",
+            "weaponSlots": [
+                {
+                    "itemSysname": "",
+                    "slotSysname": "heavy_cannon_slot",
+                    "type": "Standard"
+                },
+                {
+                    "itemSysname": "",
+                    "slotSysname": "mounted_gun_slot",
+                    "type": "Standard"
+                }
+            ]
+        },
+        {
+            "baseUnit": "8074d635-84e6-4f7e-aae2-fe87104ef76f",
+            "crew": "40c9ea6e-af98-46fd-a71e-6dce856bc329",
+            "experience": 0,
+            "presetType": "Modified",
+            "sysname": "Fnd_abrams",
+            "type": "utTank",
+            "upgradeSlots": [
+                {
+                    "upgradeItemSysname": "abrams_engine_efficiency_upgrade_item"
+                },
+                {
+                    "upgradeItemSysname": "fnd_abrams_carbon_armor_item"
+                },
+                {
+                    "upgradeItemSysname": "abrams_engine_upgrade_item"
+                }
+            ],
+            "uuid": "a85abaf4-ea9a-4e37-ab91-1135e43a3fe8",
+            "weaponSlots": [
+                {
+                    "itemSysname": "heavy_plasma_cannon_item",
+                    "slotSysname": "heavy_cannon_slot",
+                    "type": "Standard"
+                },
+                {
+                    "itemSysname": "mounted_plasma_hmg_item",
+                    "slotSysname": "mounted_gun_slot",
+                    "type": "Standard"
+                }
+            ]
+        },
+        {
+            "baseUnit": "8074d635-84e6-4f7e-aae2-fe87104ef76f",
+            "crew": "a29d1075-0e78-4bf5-88ed-d7c438023ee1",
+            "experience": 0,
+            "presetType": "Modified",
+            "sysname": "Fnd_abrams",
+            "type": "utTank",
+            "upgradeSlots": [
+                {
+                    "upgradeItemSysname": "abrams_engine_efficiency_upgrade_item"
+                },
+                {
+                    "upgradeItemSysname": "fnd_abrams_carbon_armor_item"
+                },
+                {
+                    "upgradeItemSysname": "abrams_engine_upgrade_item"
+                }
+            ],
+            "uuid": "3df8f4e7-d058-4b44-b156-c242d93eb754",
+            "weaponSlots": [
+                {
+                    "itemSysname": "heavy_plasma_cannon_item",
+                    "slotSysname": "heavy_cannon_slot",
+                    "type": "Standard"
+                },
+                {
+                    "itemSysname": "mounted_recoilless_gun_item",
+                    "slotSysname": "mounted_gun_slot",
+                    "type": "Standard"
+                }
+            ]
+        },
+        {
+            "baseUnit": "8074d635-84e6-4f7e-aae2-fe87104ef76f",
+            "crew": "cfbd2190-0b90-4f20-b1fb-56977b602c73",
+            "experience": 0,
+            "presetType": "Modified",
+            "sysname": "Fnd_abrams",
+            "type": "utTank",
+            "upgradeSlots": [
+                {
+                    "upgradeItemSysname": "abrams_engine_efficiency_upgrade_item"
+                },
+                {
+                    "upgradeItemSysname": "fnd_abrams_carbon_armor_item"
+                },
+                {
+                    "upgradeItemSysname": "abrams_engine_upgrade_item"
+                }
+            ],
+            "uuid": "872f7026-9bac-4425-b658-57d4941b1db8",
+            "weaponSlots": [
+                {
+                    "itemSysname": "heavy_plasma_cannon_item",
+                    "slotSysname": "heavy_cannon_slot",
+                    "type": "Standard"
+                },
+                {
+                    "itemSysname": "mounted_recoilless_gun_item",
+                    "slotSysname": "mounted_gun_slot",
+                    "type": "Standard"
+                }
+            ]
+        },
+        {
+            "crew": "c1e305b1-4e9d-4333-a149-dd971fffbf16",
+            "experience": 0,
+            "presetType": "Base",
+            "sysname": "Fnd_bradley",
+            "type": "utTank",
+            "uuid": "ef6c4f7f-280f-4f38-815a-36cac8a68e50",
+            "weaponSlots": [
+                {
+                    "itemSysname": "",
+                    "slotSysname": "light_cannon_slot",
+                    "type": "Standard"
+                }
+            ]
+        },
+        {
+            "baseUnit": "ef6c4f7f-280f-4f38-815a-36cac8a68e50",
+            "crew": "f2d3cff9-1504-4d73-bb89-5856b742457c",
+            "experience": 0,
+            "presetType": "Modified",
+            "sysname": "Fnd_bradley",
+            "type": "utTank",
+            "upgradeSlots": [
+                {
+                    "upgradeItemSysname": "tow_slot_item"
+                },
+                {
+                    "upgradeItemSysname": "fnd_bradley_carbon_armor_item"
+                },
+                {
+                    "upgradeItemSysname": "bradley_engine_upgrade_item"
+                },
+                {
+                    "upgradeItemSysname": "bradley_engine_efficiency_upgrade_item"
+                }
+            ],
+            "uuid": "c9420f8b-54a9-43b8-99cb-23ef8473fb60",
+            "weaponSlots": [
+                {
+                    "itemSysname": "light_plasma_cannon_item",
+                    "slotSysname": "light_cannon_slot",
+                    "type": "Standard"
+                },
+                {
+                    "itemSysname": "",
+                    "slotSysname": "tow_slot",
+                    "type": "Standard"
+                }
+            ]
+        },
+        {
+            "baseUnit": "ef6c4f7f-280f-4f38-815a-36cac8a68e50",
+            "crew": "f6877b39-f5ee-4520-bd97-69ef72de3496",
+            "experience": 0,
+            "presetType": "Modified",
+            "sysname": "Fnd_bradley",
+            "type": "utTank",
+            "upgradeSlots": [
+                {
+                    "upgradeItemSysname": "tow_slot_item"
+                },
+                {
+                    "upgradeItemSysname": "fnd_bradley_carbon_armor_item"
+                },
+                {
+                    "upgradeItemSysname": "bradley_engine_upgrade_item"
+                },
+                {
+                    "upgradeItemSysname": "bradley_engine_efficiency_upgrade_item"
+                }
+            ],
+            "uuid": "706b11d1-c77b-436b-9998-25db8dd1d559",
+            "weaponSlots": [
+                {
+                    "itemSysname": "light_plasma_cannon_item",
+                    "slotSysname": "light_cannon_slot",
+                    "type": "Standard"
+                },
+                {
+                    "itemSysname": "",
+                    "slotSysname": "tow_slot",
+                    "type": "Standard"
+                }
+            ]
+        },
+        {
+            "baseUnit": "ef6c4f7f-280f-4f38-815a-36cac8a68e50",
+            "crew": "e641e206-a608-4fa1-8f6e-7f838a91c4bc",
+            "experience": 0,
+            "presetType": "Modified",
+            "sysname": "Fnd_bradley",
+            "type": "utTank",
+            "upgradeSlots": [
+                {
+                    "upgradeItemSysname": "tow_slot_item"
+                },
+                {
+                    "upgradeItemSysname": "fnd_bradley_carbon_armor_item"
+                },
+                {
+                    "upgradeItemSysname": "bradley_engine_upgrade_item"
+                },
+                {
+                    "upgradeItemSysname": "bradley_engine_efficiency_upgrade_item"
+                }
+            ],
+            "uuid": "2e031486-e82f-4943-8822-11467db9ccd6",
+            "weaponSlots": [
+                {
+                    "itemSysname": "light_plasma_cannon_item",
+                    "slotSysname": "light_cannon_slot",
+                    "type": "Standard"
+                },
+                {
+                    "itemSysname": "",
+                    "slotSysname": "tow_slot",
+                    "type": "Standard"
+                }
+            ]
+        },
+        {
+            "crew": "28529147-c743-40d3-87f0-1d482d6f30ed",
+            "experience": 0,
+            "presetType": "Base",
+            "sysname": "Fnd_m113",
+            "type": "utTank",
+            "uuid": "fa65cd98-38ab-4d24-9bac-a003d7a4b944",
+            "weaponSlots": [
+                {
+                    "itemSysname": "",
+                    "slotSysname": "mounted_gun_slot",
+                    "type": "Standard"
+                }
+            ]
+        },
+        {
+            "crew": "28529147-c743-40d3-87f0-1d482d6f30ed",
+            "experience": 0,
+            "presetType": "Base",
+            "sysname": "Fnd_stryker",
+            "type": "utCar",
+            "uuid": "921f59a7-a7a0-4f3c-80ed-52e88afac21d",
+            "weaponSlots": [
+                {
+                    "itemSysname": "",
+                    "slotSysname": "RWS_mounted_gun_slot",
+                    "type": "Standard"
+                }
+            ]
+        },
+        {
+            "crew": "28529147-c743-40d3-87f0-1d482d6f30ed",
+            "experience": 0,
+            "presetType": "Base",
+            "sysname": "Fnd_HEMTT_ammunition",
+            "type": "utCar",
+            "uuid": "7416fb07-809d-473e-b0f5-4d576762e1c7"
+        },
+        {
+            "baseUnit": "7416fb07-809d-473e-b0f5-4d576762e1c7",
+            "crew": "db08fa31-28ac-4668-a966-39e521505857",
+            "experience": 0,
+            "presetType": "Modified",
+            "sysname": "Fnd_HEMTT_ammunition",
+            "type": "utCar",
+            "upgradeSlots": [
+                {
+                    "upgradeItemSysname": "hemtt_engine_upgrade_item"
+                }
+            ],
+            "uuid": "4487d2c5-19ca-41c0-bcd7-c32cea95b2f6"
+        },
+        {
+            "baseUnit": "7416fb07-809d-473e-b0f5-4d576762e1c7",
+            "crew": "829a5133-7202-48ec-af12-6066c015201b",
+            "experience": 0,
+            "presetType": "Modified",
+            "sysname": "Fnd_HEMTT_ammunition",
+            "type": "utCar",
+            "upgradeSlots": [
+                {
+                    "upgradeItemSysname": "hemtt_engine_upgrade_item"
+                },
+                {
+                    "upgradeItemSysname": "hemtt_engine_efficiency_upgrade_item"
+                }
+            ],
+            "uuid": "e9223adf-0118-4ddb-9a4e-ba625193f3c7"
+        },
+        {
+            "baseUnit": "7416fb07-809d-473e-b0f5-4d576762e1c7",
+            "crew": "f41d8737-3403-4196-98c7-35a6295f86b6",
+            "experience": 0,
+            "presetType": "Modified",
+            "sysname": "Fnd_HEMTT_ammunition",
+            "type": "utCar",
+            "upgradeSlots": [
+                {
+                    "upgradeItemSysname": "hemtt_engine_upgrade_item"
+                }
+            ],
+            "uuid": "98260e1f-1264-4218-b533-4a66fafa8ddb"
+        },
+        {
+            "crew": "28529147-c743-40d3-87f0-1d482d6f30ed",
+            "experience": 0,
+            "presetType": "Base",
+            "sysname": "Fnd_HEMTT_fuel",
+            "type": "utCar",
+            "uuid": "7abd1a3d-4425-40ea-9483-e658021b9e89"
+        },
+        {
+            "baseUnit": "7abd1a3d-4425-40ea-9483-e658021b9e89",
+            "crew": "7720430d-5627-4225-8c44-7fed13b20606",
+            "experience": 0,
+            "presetType": "Modified",
+            "sysname": "Fnd_HEMTT_fuel",
+            "type": "utCar",
+            "upgradeSlots": [
+                {
+                    "upgradeItemSysname": "hemtt_engine_efficiency_upgrade_item"
+                }
+            ],
+            "uuid": "54bb7c06-db0a-4bd6-be99-39a94dffa1c3"
+        },
+        {
+            "baseUnit": "7abd1a3d-4425-40ea-9483-e658021b9e89",
+            "crew": "4d365e9b-3394-47a7-b01d-da745192ce7b",
+            "experience": 0,
+            "presetType": "Modified",
+            "sysname": "Fnd_HEMTT_fuel",
+            "type": "utCar",
+            "upgradeSlots": [
+                {
+                    "upgradeItemSysname": "hemtt_engine_efficiency_upgrade_item"
+                }
+            ],
+            "uuid": "5ca378a1-ca83-47ae-9b95-f87f85ce8ed7"
+        },
+        {
+            "crew": "28529147-c743-40d3-87f0-1d482d6f30ed",
+            "experience": 0,
+            "presetType": "Base",
+            "sysname": "Fnd_HEMTT_passenger",
+            "type": "utCar",
+            "uuid": "c62aca97-65c1-4575-a2ce-7bfae232611c"
+        },
+        {
+            "crew": "28529147-c743-40d3-87f0-1d482d6f30ed",
+            "experience": 0,
+            "presetType": "Base",
+            "sysname": "Fnd_hamvee",
+            "type": "utCar",
+            "uuid": "eec19a87-d0f3-4d71-9cc6-9951c37458fc",
+            "weaponSlots": [
+                {
+                    "itemSysname": "",
+                    "slotSysname": "mounted_gun_slot",
+                    "type": "Standard"
+                }
+            ]
+        },
+        {
+            "baseUnit": "eec19a87-d0f3-4d71-9cc6-9951c37458fc",
+            "crew": "703ce2e2-60c8-47ee-91a6-c5dca1567c47",
+            "experience": 0,
+            "presetType": "Modified",
+            "sysname": "Fnd_hamvee",
+            "type": "utCar",
+            "upgradeSlots": [
+                {
+                    "upgradeItemSysname": "hamvee_steel_armor_item"
+                },
+                {
+                    "upgradeItemSysname": "hamvee_engine_efficiency_upgrade_item"
+                },
+                {
+                    "upgradeItemSysname": "hamvee_engine_upgrade_item"
+                }
+            ],
+            "uuid": "a35f2072-a46c-470f-ba85-19bcacc08ac8",
+            "weaponSlots": [
+                {
+                    "itemSysname": "mounted_plasma_recoilless_gun_item",
+                    "slotSysname": "mounted_gun_slot",
+                    "type": "Standard"
+                }
+            ]
+        },
+        {
+            "baseUnit": "eec19a87-d0f3-4d71-9cc6-9951c37458fc",
+            "crew": "b0d047a0-9838-40a9-be54-07ddeb119fbd",
+            "experience": 0,
+            "presetType": "Modified",
+            "sysname": "Fnd_hamvee",
+            "type": "utCar",
+            "upgradeSlots": [
+                {
+                    "upgradeItemSysname": "hamvee_steel_armor_item"
+                },
+                {
+                    "upgradeItemSysname": "hamvee_engine_efficiency_upgrade_item"
+                },
+                {
+                    "upgradeItemSysname": "hamvee_engine_upgrade_item"
+                }
+            ],
+            "uuid": "b8950892-96c2-49fe-b5e4-a373e758485e",
+            "weaponSlots": [
+                {
+                    "itemSysname": "mounted_plasma_recoilless_gun_item",
+                    "slotSysname": "mounted_gun_slot",
+                    "type": "Standard"
+                }
+            ]
+        },
+        {
+            "baseUnit": "eec19a87-d0f3-4d71-9cc6-9951c37458fc",
+            "crew": "356728b9-7145-4f60-8ff0-57598c2fe369",
+            "experience": 0,
+            "presetType": "Modified",
+            "sysname": "Fnd_hamvee",
+            "type": "utCar",
+            "upgradeSlots": [
+                {
+                    "upgradeItemSysname": "hamvee_steel_armor_item"
+                },
+                {
+                    "upgradeItemSysname": "hamvee_engine_efficiency_upgrade_item"
+                },
+                {
+                    "upgradeItemSysname": "hamvee_engine_upgrade_item"
+                }
+            ],
+            "uuid": "41eaca04-ed15-4468-a313-0b9367519033",
+            "weaponSlots": [
+                {
+                    "itemSysname": "mounted_plasma_hmg_item",
+                    "slotSysname": "mounted_gun_slot",
+                    "type": "Standard"
+                }
+            ]
+        },
+        {
+            "baseUnit": "28529147-c743-40d3-87f0-1d482d6f30ed",
+            "experience": 1201,
+            "presetType": "Modified",
+            "sysname": "Fnd_car_crew",
+            "trainings": [
+                "accelerated_repairing",
+                "foragers_ability",
+                "increased_vehicle_velocity"
+            ],
+            "type": "utSquad",
+            "uuid": "751e00c1-0c21-4bfa-98a1-0e26cb555fae",
+            "weaponSlots": [
+                {
+                    "itemSysname": "inf_hkmp5_item",
+                    "slotSysname": "inf_pistols",
+                    "type": "Standard"
+                }
+            ]
+        },
+        {
+            "baseUnit": "28529147-c743-40d3-87f0-1d482d6f30ed",
+            "experience": 1201,
+            "presetType": "Modified",
+            "sysname": "Fnd_car_crew",
+            "trainings": [
+                "accelerated_repairing",
+                "foragers_ability",
+                "increased_vehicle_velocity"
+            ],
+            "type": "utSquad",
+            "uuid": "fda6d191-19de-42c0-a7fd-a357aa835815",
+            "weaponSlots": [
+                {
+                    "itemSysname": "inf_hkmp5_item",
+                    "slotSysname": "inf_pistols",
+                    "type": "Standard"
+                }
+            ]
+        },
+        {
+            "experience": 0,
+            "presetType": "Base",
+            "sysname": "Fnd_car_crew",
+            "type": "utSquad",
+            "uuid": "28529147-c743-40d3-87f0-1d482d6f30ed",
+            "weaponSlots": [
+                {
+                    "itemSysname": "inf_hkmp5_item",
+                    "slotSysname": "inf_pistols",
+                    "type": "Standard"
+                }
+            ]
+        },
+        {
+            "experience": 0,
+            "presetType": "Base",
+            "sysname": "Fnd_engineers",
+            "type": "utSquad",
+            "uuid": "44c2bbed-d670-4c01-8a90-6c6d83425063",
+            "weaponSlots": [
+                {
+                    "itemSysname": "",
+                    "slotSysname": "inf_shotguns",
+                    "type": "Standard"
+                },
+                {
+                    "itemSysname": "",
+                    "slotSysname": "inf_hg",
+                    "type": "Standard"
+                },
+                {
+                    "itemSysname": "",
+                    "slotSysname": "inf_sg",
+                    "type": "Standard"
+                },
+                {
+                    "itemSysname": "",
+                    "slotSysname": "inf_mine",
+                    "type": "Standard"
+                },
+                {
+                    "itemSysname": "",
+                    "slotSysname": "inf_at_mine",
+                    "type": "Standard"
+                }
+            ]
+        },
+        {
+            "baseUnit": "f444134b-6587-450f-937e-1f39f1293d94",
+            "experience": 4000,
+            "presetType": "Modified",
+            "sysname": "Fnd_infantry",
+            "trainings": [
+                "rpg_additional_ammo_type",
+                "ammo_multiplier",
+                "foragers_ability",
+                "accelerated_aiming",
+                "body_armor"
+            ],
+            "type": "utSquad",
+            "uuid": "b9cec0b8-1286-4489-b7e1-6a344a36202d",
+            "weaponSlots": [
+                {
+                    "itemSysname": "inf_plasma_rifle_item",
+                    "slotSysname": "inf_rifles_AR15",
+                    "type": "Standard"
+                },
+                {
+                    "itemSysname": "",
+                    "slotSysname": "inf_hg",
+                    "type": "Standard"
+                },
+                {
+                    "itemSysname": "inf_fmg172_item",
+                    "slotSysname": "inf_spec_rpg_SMAW",
+                    "type": "Special"
+                },
+                {
+                    "itemSysname": "inf_plasma_mg_item",
+                    "slotSysname": "inf_spec_machinegun",
+                    "type": "Special"
+                }
+            ]
+        },
+        {
+            "baseUnit": "f444134b-6587-450f-937e-1f39f1293d94",
+            "experience": 4000,
+            "presetType": "Modified",
+            "sysname": "Fnd_infantry",
+            "trainings": [
+                "rpg_additional_ammo_type",
+                "ammo_multiplier",
+                "foragers_ability",
+                "accelerated_aiming",
+                "body_armor"
+            ],
+            "type": "utSquad",
+            "uuid": "c75d9421-afa1-4406-bac3-60e6d30b2d06",
+            "weaponSlots": [
+                {
+                    "itemSysname": "inf_plasma_rifle_item",
+                    "slotSysname": "inf_rifles_AR15",
+                    "type": "Standard"
+                },
+                {
+                    "itemSysname": "",
+                    "slotSysname": "inf_hg",
+                    "type": "Standard"
+                },
+                {
+                    "itemSysname": "inf_fmg172_item",
+                    "slotSysname": "inf_spec_rpg_SMAW",
+                    "type": "Special"
+                },
+                {
+                    "itemSysname": "inf_plasma_mg_item",
+                    "slotSysname": "inf_spec_machinegun",
+                    "type": "Special"
+                }
+            ]
+        },
+        {
+            "baseUnit": "f444134b-6587-450f-937e-1f39f1293d94",
+            "experience": 4000,
+            "presetType": "Modified",
+            "sysname": "Fnd_infantry",
+            "trainings": [
+                "rpg_additional_ammo_type",
+                "ammo_multiplier",
+                "foragers_ability",
+                "accelerated_aiming",
+                "body_armor"
+            ],
+            "type": "utSquad",
+            "uuid": "53667d15-2253-41e5-b739-46d497fc9b74",
+            "weaponSlots": [
+                {
+                    "itemSysname": "inf_plasma_rifle_item",
+                    "slotSysname": "inf_rifles_AR15",
+                    "type": "Standard"
+                },
+                {
+                    "itemSysname": "",
+                    "slotSysname": "inf_hg",
+                    "type": "Standard"
+                },
+                {
+                    "itemSysname": "inf_fmg172_item",
+                    "slotSysname": "inf_spec_rpg_SMAW",
+                    "type": "Special"
+                },
+                {
+                    "itemSysname": "inf_plasma_mg_item",
+                    "slotSysname": "inf_spec_machinegun",
+                    "type": "Special"
+                }
+            ]
+        },
+        {
+            "experience": 0,
+            "presetType": "Base",
+            "sysname": "Fnd_infantry",
+            "type": "utSquad",
+            "uuid": "f444134b-6587-450f-937e-1f39f1293d94",
+            "weaponSlots": [
+                {
+                    "itemSysname": "inf_m4_item",
+                    "slotSysname": "inf_rifles_AR15",
+                    "type": "Standard"
+                },
+                {
+                    "itemSysname": "",
+                    "slotSysname": "inf_hg",
+                    "type": "Standard"
+                },
+                {
+                    "itemSysname": "inf_smaw_item",
+                    "slotSysname": "inf_spec_rpg_SMAW",
+                    "type": "Special"
+                },
+                {
+                    "itemSysname": "",
+                    "slotSysname": "inf_spec_machinegun",
+                    "type": "Special"
+                }
+            ]
+        },
+        {
+            "baseUnit": "a2dee5c9-358b-4bb8-9189-92c22097ec9d",
+            "experience": 7999,
+            "presetType": "Modified",
+            "sysname": "Fnd_missile_squad",
+            "trainings": [
+                "accelerated_deploy",
+                "universal_atgm",
+                "foragers_ability",
+                "ammo_multiplier",
+                "accelerated_aiming"
+            ],
+            "type": "utSquad",
+            "uuid": "3efc7b66-ff30-4898-9f71-8cef5c2172ae",
+            "weaponSlots": [
+                {
+                    "itemSysname": "inf_hkmp5_item",
+                    "slotSysname": "inf_pistols",
+                    "type": "Standard"
+                },
+                {
+                    "itemSysname": "",
+                    "slotSysname": "inf_spec_atgm",
+                    "type": "Special"
+                }
+            ]
+        },
+        {
+            "baseUnit": "a2dee5c9-358b-4bb8-9189-92c22097ec9d",
+            "experience": 7999,
+            "presetType": "Modified",
+            "sysname": "Fnd_missile_squad",
+            "trainings": [
+                "accelerated_deploy",
+                "universal_atgm",
+                "foragers_ability",
+                "ammo_multiplier",
+                "accelerated_aiming"
+            ],
+            "type": "utSquad",
+            "uuid": "0ea2b186-55a3-4ff1-9771-37edcb6dbe1d",
+            "weaponSlots": [
+                {
+                    "itemSysname": "inf_hkmp5_item",
+                    "slotSysname": "inf_pistols",
+                    "type": "Standard"
+                },
+                {
+                    "itemSysname": "",
+                    "slotSysname": "inf_spec_atgm",
+                    "type": "Special"
+                }
+            ]
+        },
+        {
+            "baseUnit": "a2dee5c9-358b-4bb8-9189-92c22097ec9d",
+            "experience": 7999,
+            "presetType": "Modified",
+            "sysname": "Fnd_missile_squad",
+            "trainings": [
+                "accelerated_deploy",
+                "universal_atgm",
+                "foragers_ability",
+                "ammo_multiplier",
+                "accelerated_aiming"
+            ],
+            "type": "utSquad",
+            "uuid": "c83e9d2b-b5de-495a-9d36-ea95d992a4cf",
+            "weaponSlots": [
+                {
+                    "itemSysname": "inf_hkmp5_item",
+                    "slotSysname": "inf_pistols",
+                    "type": "Standard"
+                },
+                {
+                    "itemSysname": "",
+                    "slotSysname": "inf_spec_atgm",
+                    "type": "Special"
+                }
+            ]
+        },
+        {
+            "experience": 0,
+            "presetType": "Base",
+            "sysname": "Fnd_missile_squad",
+            "type": "utSquad",
+            "uuid": "a2dee5c9-358b-4bb8-9189-92c22097ec9d",
+            "weaponSlots": [
+                {
+                    "itemSysname": "inf_hkmp5_item",
+                    "slotSysname": "inf_pistols",
+                    "type": "Standard"
+                },
+                {
+                    "itemSysname": "",
+                    "slotSysname": "inf_spec_atgm",
+                    "type": "Special"
+                }
+            ]
+        },
+        {
+            "experience": 0,
+            "presetType": "Base",
+            "sysname": "Fnd_pilots",
+            "type": "utSquad",
+            "uuid": "bc8d26e6-6687-4661-896f-142ff10f8c52",
+            "weaponSlots": [
+                {
+                    "itemSysname": "",
+                    "slotSysname": "inf_pistols",
+                    "type": "Standard"
+                }
+            ]
+        },
+        {
+            "experience": 0,
+            "presetType": "Base",
+            "sysname": "Fnd_rangers",
+            "type": "utSquad",
+            "uuid": "883d3143-08e0-416a-88ee-169c25c40de9",
+            "weaponSlots": [
+                {
+                    "itemSysname": "inf_m4_item",
+                    "slotSysname": "inf_rifles_AR15",
+                    "type": "Standard"
+                },
+                {
+                    "itemSysname": "",
+                    "slotSysname": "inf_hg",
+                    "type": "Standard"
+                },
+                {
+                    "itemSysname": "",
+                    "slotSysname": "inf_sg",
+                    "type": "Standard"
+                },
+                {
+                    "itemSysname": "",
+                    "slotSysname": "inf_spec_sniper_rifle",
+                    "type": "Special"
+                },
+                {
+                    "itemSysname": "",
+                    "slotSysname": "inf_spec_40mmGL",
+                    "type": "Special"
+                }
+            ]
+        },
+        {
+            "experience": 0,
+            "presetType": "Base",
+            "sysname": "Fnd_snipers",
+            "type": "utSquad",
+            "uuid": "ec07be67-0d25-4e51-a537-f2486158e7af",
+            "weaponSlots": [
+                {
+                    "itemSysname": "inf_hkmp5_item",
+                    "slotSysname": "inf_pistols",
+                    "type": "Standard"
+                },
+                {
+                    "itemSysname": "",
+                    "slotSysname": "inf_sg",
+                    "type": "Standard"
+                },
+                {
+                    "itemSysname": "inf_barret_item",
+                    "slotSysname": "inf_spec_sniper_rifle",
+                    "type": "Special"
+                },
+                {
+                    "itemSysname": "",
+                    "slotSysname": "inf_spec_sniper_rifle",
+                    "type": "Special"
+                }
+            ]
+        },
+        {
+            "experience": 0,
+            "presetType": "Base",
+            "sysname": "Fnd_tank_crew",
+            "type": "utSquad",
+            "uuid": "c1e305b1-4e9d-4333-a149-dd971fffbf16",
+            "weaponSlots": [
+                {
+                    "itemSysname": "inf_hkmp5_item",
+                    "slotSysname": "inf_pistols",
+                    "type": "Standard"
+                }
+            ]
+        },
+        {
+            "baseUnit": "28529147-c743-40d3-87f0-1d482d6f30ed",
+            "experience": 1201,
+            "presetType": "Modified",
+            "sysname": "Fnd_car_crew",
+            "trainings": [
+                "accelerated_repairing",
+                "foragers_ability",
+                "increased_vehicle_velocity"
+            ],
+            "type": "utSquad",
+            "uuid": "7720430d-5627-4225-8c44-7fed13b20606",
+            "vehicle": "54bb7c06-db0a-4bd6-be99-39a94dffa1c3",
+            "weaponSlots": [
+                {
+                    "itemSysname": "inf_hkmp5_item",
+                    "slotSysname": "inf_pistols",
+                    "type": "Standard"
+                }
+            ]
+        },
+        {
+            "baseUnit": "28529147-c743-40d3-87f0-1d482d6f30ed",
+            "experience": 0,
+            "presetType": "Instance",
+            "sysname": "Fnd_car_crew",
+            "type": "utSquad",
+            "uuid": "db08fa31-28ac-4668-a966-39e521505857",
+            "vehicle": "4487d2c5-19ca-41c0-bcd7-c32cea95b2f6",
+            "weaponSlots": [
+                {
+                    "itemSysname": "inf_hkmp5_item",
+                    "slotSysname": "inf_pistols",
+                    "type": "Standard"
+                }
+            ]
+        },
+        {
+            "baseUnit": "28529147-c743-40d3-87f0-1d482d6f30ed",
+            "experience": 0,
+            "presetType": "Instance",
+            "sysname": "Fnd_car_crew",
+            "type": "utSquad",
+            "uuid": "703ce2e2-60c8-47ee-91a6-c5dca1567c47",
+            "vehicle": "a35f2072-a46c-470f-ba85-19bcacc08ac8",
+            "weaponSlots": [
+                {
+                    "itemSysname": "inf_hkmp5_item",
+                    "slotSysname": "inf_pistols",
+                    "type": "Standard"
+                }
+            ]
+        },
+        {
+            "baseUnit": "28529147-c743-40d3-87f0-1d482d6f30ed",
+            "experience": 0,
+            "presetType": "Instance",
+            "sysname": "Fnd_car_crew",
+            "type": "utSquad",
+            "uuid": "829a5133-7202-48ec-af12-6066c015201b",
+            "vehicle": "e9223adf-0118-4ddb-9a4e-ba625193f3c7",
+            "weaponSlots": [
+                {
+                    "itemSysname": "inf_hkmp5_item",
+                    "slotSysname": "inf_pistols",
+                    "type": "Standard"
+                }
+            ]
+        },
+        {
+            "baseUnit": "28529147-c743-40d3-87f0-1d482d6f30ed",
+            "experience": 0,
+            "presetType": "Instance",
+            "sysname": "Fnd_car_crew",
+            "type": "utSquad",
+            "uuid": "4d365e9b-3394-47a7-b01d-da745192ce7b",
+            "vehicle": "5ca378a1-ca83-47ae-9b95-f87f85ce8ed7",
+            "weaponSlots": [
+                {
+                    "itemSysname": "inf_hkmp5_item",
+                    "slotSysname": "inf_pistols",
+                    "type": "Standard"
+                }
+            ]
+        },
+        {
+            "baseUnit": "28529147-c743-40d3-87f0-1d482d6f30ed",
+            "experience": 0,
+            "presetType": "Instance",
+            "sysname": "Fnd_car_crew",
+            "type": "utSquad",
+            "uuid": "b0d047a0-9838-40a9-be54-07ddeb119fbd",
+            "vehicle": "b8950892-96c2-49fe-b5e4-a373e758485e",
+            "weaponSlots": [
+                {
+                    "itemSysname": "inf_hkmp5_item",
+                    "slotSysname": "inf_pistols",
+                    "type": "Standard"
+                }
+            ]
+        },
+        {
+            "baseUnit": "28529147-c743-40d3-87f0-1d482d6f30ed",
+            "experience": 0,
+            "presetType": "Instance",
+            "sysname": "Fnd_car_crew",
+            "type": "utSquad",
+            "uuid": "356728b9-7145-4f60-8ff0-57598c2fe369",
+            "vehicle": "41eaca04-ed15-4468-a313-0b9367519033",
+            "weaponSlots": [
+                {
+                    "itemSysname": "inf_hkmp5_item",
+                    "slotSysname": "inf_pistols",
+                    "type": "Standard"
+                }
+            ]
+        },
+        {
+            "baseUnit": "28529147-c743-40d3-87f0-1d482d6f30ed",
+            "experience": 0,
+            "presetType": "Instance",
+            "sysname": "Fnd_car_crew",
+            "type": "utSquad",
+            "uuid": "f41d8737-3403-4196-98c7-35a6295f86b6",
+            "vehicle": "98260e1f-1264-4218-b533-4a66fafa8ddb",
+            "weaponSlots": [
+                {
+                    "itemSysname": "inf_hkmp5_item",
+                    "slotSysname": "inf_pistols",
+                    "type": "Standard"
+                }
+            ]
+        },
+        {
+            "baseUnit": "bc8d26e6-6687-4661-896f-142ff10f8c52",
+            "experience": 2800,
+            "presetType": "Modified",
+            "sysname": "Fnd_pilots",
+            "trainings": [
+                "accelerated_repairing",
+                "foragers_ability",
+                "accelerated_vehicle_aiming"
+            ],
+            "type": "utSquad",
+            "uuid": "cccfa17a-bdf4-4a27-b1bc-c3e55d74cdd3",
+            "vehicle": "90e175b1-152f-4cb9-a968-db64855383c6",
+            "weaponSlots": [
+                {
+                    "itemSysname": "",
+                    "slotSysname": "inf_pistols",
+                    "type": "Standard"
+                }
+            ]
+        },
+        {
+            "baseUnit": "c1e305b1-4e9d-4333-a149-dd971fffbf16",
+            "experience": 0,
+            "presetType": "Instance",
+            "sysname": "Fnd_tank_crew",
+            "type": "utSquad",
+            "uuid": "f2d3cff9-1504-4d73-bb89-5856b742457c",
+            "vehicle": "c9420f8b-54a9-43b8-99cb-23ef8473fb60",
+            "weaponSlots": [
+                {
+                    "itemSysname": "inf_hkmp5_item",
+                    "slotSysname": "inf_pistols",
+                    "type": "Standard"
+                }
+            ]
+        },
+        {
+            "baseUnit": "c1e305b1-4e9d-4333-a149-dd971fffbf16",
+            "experience": 0,
+            "presetType": "Instance",
+            "sysname": "Fnd_tank_crew",
+            "type": "utSquad",
+            "uuid": "40c9ea6e-af98-46fd-a71e-6dce856bc329",
+            "vehicle": "a85abaf4-ea9a-4e37-ab91-1135e43a3fe8",
+            "weaponSlots": [
+                {
+                    "itemSysname": "inf_hkmp5_item",
+                    "slotSysname": "inf_pistols",
+                    "type": "Standard"
+                }
+            ]
+        },
+        {
+            "baseUnit": "c1e305b1-4e9d-4333-a149-dd971fffbf16",
+            "experience": 0,
+            "presetType": "Instance",
+            "sysname": "Fnd_tank_crew",
+            "type": "utSquad",
+            "uuid": "a29d1075-0e78-4bf5-88ed-d7c438023ee1",
+            "vehicle": "3df8f4e7-d058-4b44-b156-c242d93eb754",
+            "weaponSlots": [
+                {
+                    "itemSysname": "inf_hkmp5_item",
+                    "slotSysname": "inf_pistols",
+                    "type": "Standard"
+                }
+            ]
+        },
+        {
+            "baseUnit": "c1e305b1-4e9d-4333-a149-dd971fffbf16",
+            "experience": 0,
+            "presetType": "Instance",
+            "sysname": "Fnd_tank_crew",
+            "type": "utSquad",
+            "uuid": "f6877b39-f5ee-4520-bd97-69ef72de3496",
+            "vehicle": "706b11d1-c77b-436b-9998-25db8dd1d559",
+            "weaponSlots": [
+                {
+                    "itemSysname": "inf_hkmp5_item",
+                    "slotSysname": "inf_pistols",
+                    "type": "Standard"
+                }
+            ]
+        },
+        {
+            "baseUnit": "c1e305b1-4e9d-4333-a149-dd971fffbf16",
+            "experience": 0,
+            "presetType": "Instance",
+            "sysname": "Fnd_tank_crew",
+            "type": "utSquad",
+            "uuid": "cfbd2190-0b90-4f20-b1fb-56977b602c73",
+            "vehicle": "872f7026-9bac-4425-b658-57d4941b1db8",
+            "weaponSlots": [
+                {
+                    "itemSysname": "inf_hkmp5_item",
+                    "slotSysname": "inf_pistols",
+                    "type": "Standard"
+                }
+            ]
+        },
+        {
+            "baseUnit": "c1e305b1-4e9d-4333-a149-dd971fffbf16",
+            "experience": 0,
+            "presetType": "Instance",
+            "sysname": "Fnd_tank_crew",
+            "type": "utSquad",
+            "uuid": "e641e206-a608-4fa1-8f6e-7f838a91c4bc",
+            "vehicle": "2e031486-e82f-4943-8822-11467db9ccd6",
+            "weaponSlots": [
+                {
+                    "itemSysname": "inf_hkmp5_item",
+                    "slotSysname": "inf_pistols",
+                    "type": "Standard"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,671 @@
+RelicCardinal started at 2026-01-08 14:23 [Malay Peninsula Standard Time UTC 08:00]
+OS Win 10.0.26200.0, 32641MB Physical Memory, 21998 Physical Available, 34689 Virtual Total, 19721 Virtual Available, 2048 Page file.
+RUN-OPTIONS []
+WORKING-DIR [C:\Program Files (x86)\Steam\steamapps\common\Age of Empires IV\]
+USER [Aorus_Admin]
+COMPUTER [MARKIEL]
+LOCALE [en-US]
+
+(I) [14:23:49.297] [000021424]: Version.cpp - translation info queried modulefilename C:\Program Files (x86)\Steam\steamapps\common\Age of Empires IV\RelicCardinal.exe, len 1596
+(I) [14:23:49.297] [000021424]: Version [15.2.7445.0] Info [[Cardinal][cardinal][release_15_2_0][rtm][4156188]]
+(I) [14:23:50.902] [000021424]: Loading step: [Additional crash information]
+(I) [14:23:50.902] [000021424]: Loading step: [Platform]
+(I) [14:23:50.903] [000021424]: Loading step: [Early Free RAM Check]
+(I) [14:23:50.903] [000021424]: Loading step: [Single Instance Check]
+(I) [14:23:50.903] [000021424]: Loading step: [Async IO Queue]
+(I) [14:23:50.903] [000021424]: Loading step: [Config File]
+(I) [14:23:51.030] [000021424]: GAME -- Current Steam name is [Uncle Bobby B]
+(I) [14:23:51.030] [000021424]: GAME -- steam returned language 'english'
+(I) [14:23:51.031] [000021424]: GAME -- [Age of Empires IV] set to language [en]
+(I) [14:23:51.031] [000021424]: Loading step: [Render Window]
+(I) [14:23:51.031] [000021424]: Loading step: [Statgraph]
+(I) [14:23:51.031] [000021424]: Loading step: [StatGraph Stats]
+(I) [14:23:51.031] [000021424]: Loading step: [MathBox]
+(I) [14:23:51.031] [000021424]: MATHBOX -- Mode=SSE
+(I) [14:23:51.031] [000021424]: Loading step: [ArchiveManager]
+(I) [14:23:51.031] [000021424]: Loading step: [IOThrottler]
+(I) [14:23:51.031] [000021424]: Loading step: [Filesystem]
+(I) [14:23:51.031] [000021424]: Using [C:\Users\Aorus_Admin\Documents\My Games\Age of Empires IV\] as base writable folder
+(I) [14:23:51.031] [000021424]: Using [C:\Users\Aorus_Admin\Documents\My Games\Age of Empires IV\] as base transient writable folder
+(I) [14:23:51.031] [000021424]: Loading step: [Place Debug Session File]
+(I) [14:23:51.032] [000021424]: Loading step: [Load Scheduler]
+(I) [14:23:51.032] [000021424]: Loading step: [FileLogger]
+(I) [14:23:51.032] [000021424]: Loading step: [Lua GameBinding Traits]
+(I) [14:23:51.032] [000021424]: Loading step: [Lua Libraries]
+(I) [14:23:51.032] [000021424]: Loading step: [System Config]
+(I) [14:23:51.038] [000021424]: Loading step: [User Folder Unloader]
+(I) [14:23:51.038] [000021424]: Loading step: [Load/Save Config Settings]
+(I) [14:23:51.039] [000021424]: Loading step: [Warnings]
+(I) [14:23:51.039] [000021424]: Loading step: [Load Debug Symbols]
+(I) [14:23:51.039] [000021424]: Loading step: [MemoryEnvironment]
+(I) [14:23:51.044] [000024348]: SymInitialize will attempt to load symbols from [C:\Program Files (x86)\Steam\steamapps\common\Age of Empires IV\].
+(I) [14:23:51.049] [000021424]: Loading step: [InitReflectSystem]
+(I) [14:23:51.088] [000021424]: Loading step: [InitStateTreeManager]
+(I) [14:23:51.088] [000021424]: Loading step: [Prerequisite Manager]
+(I) [14:23:51.088] [000021424]: Loading step: [Prerequisite Entries]
+(I) [14:23:51.088] [000021424]: Loading step: [GameModule Pre Mod Interface Init]
+(I) [14:23:51.088] [000021424]: Loading step: [ModManager]
+(I) [14:23:51.088] [000021424]: MODULE -- Creating module 'RelicGame'.
+(I) [14:23:51.104] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\attrib.sga 92940040 B [ID:ee47be61ca96024d4a4e1ec86642ee0d] [Ver:ef3c5fa509e428a82b1a2ef8e829c291] [Sig:15654959729299313521]
+(I) [14:23:51.211] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\engine\archives\data.sga 510042 B [ID:16c0f95516b6bd76239a8a743a290dba] [Ver:6299cc09c1654dc1239a13a6c76e5c95] [Sig:5792648578554001410]
+(I) [14:23:51.212] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\common\archives\data.sga 33220 B [ID:16c0f95516b6bd76239a8a743a290dba] [Ver:8d2ac4dbfc1bc9c4f5a4f5aa268b9d82] [Sig:5245408353539552599]
+(I) [14:23:51.213] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\engine\archives\ui.sga 1129058 B [ID:09480279ef1f221e1467f0feeeb28aa2] [Ver:ec33bc27b67ef2b248dbc24a27f4ce54] [Sig:9598038045816838209]
+(I) [14:23:51.216] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\art.sga 58801819 B [ID:d99ddc3bf2a59ab33b5a50ec14f1256c] [Ver:acb51dd7f64b52927b02afcc291b1f92] [Sig:11418231262419413831]
+(I) [14:23:51.219] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\artcivilizations.sga 76815469 B [ID:a1848b38e5518cdbdf39590d559fac83] [Ver:fcd407a46bd00a981dffd4c1bb15da34] [Sig:5126959413848202178]
+(I) [14:23:51.222] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\artenvironment.sga 892991 B [ID:a7a407191c6a9c6d7922e5be93c9c0ab] [Ver:e532d4b9a40b0ca0a8de77c15ca818d3] [Sig:15322528772497439570]
+(I) [14:23:51.224] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\artscenarios.sga 29866239 B [ID:8c73975de44dd6c1a48fcb04421475c4] [Ver:1d2e781a403b167c6d815f9541fec0b4] [Sig:17787157640342664997]
+(I) [14:23:51.225] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\ui.sga 110555617 B [ID:c00215033d7a6362a23396b8a85b673e] [Ver:a740d560923aa0813a0efafcf767de2d] [Sig:17146711687096764754]
+(I) [14:23:51.231] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\uiart.sga 1664249386 B [ID:e9e119548401f6f9cb7ccf6351516a15] [Ver:f6a852a31090a2a0ad20b2261b71856e] [Sig:3229772682404007802]
+(I) [14:23:51.239] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\artcampaign.sga 501430 B [ID:6412a87b29f706d21c1052453db9f82a] [Ver:60d4be756e2e64d8796f7044db194ced] [Sig:16317987192662929849]
+(I) [14:23:51.239] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\artcampaignxp3.sga 83291 B [ID:8f384fa2caed9e8f8e85792455ae986a] [Ver:3b9801de2333fd18e9c31c192c098963] [Sig:1158051871119958631]
+(I) [14:23:51.241] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\artabbasids.sga 4096222 B [ID:0e00db2440f4d006b08b650c273d8060] [Ver:26fdc2310206f497236eb7a36cd2fcb2] [Sig:14767106831243671667]
+(I) [14:23:51.243] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\artchinese.sga 9117318 B [ID:82a6adbd840c98202bc87fef753b5d65] [Ver:40577ff6caf3930edeaef35b8af76d0b] [Sig:6028850211588939562]
+(I) [14:23:51.245] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\artenglish.sga 8615249 B [ID:f1edd63d3e0732b474dd114b8cefbe0a] [Ver:5058bf97ca9b57aea887ddade2361e1d] [Sig:10086169863657179973]
+(I) [14:23:51.246] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\artfrench.sga 7073961 B [ID:10e6ba5b8cd559550c78b750c102d365] [Ver:17d5c6f8dd912a70292500717d44a4b2] [Sig:9566539920291502754]
+(I) [14:23:51.249] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\artgaia.sga 478902 B [ID:13f9b459d59202d5c9505386a400343a] [Ver:4ec19707c7d3b6ac26e08650f8ca3dd2] [Sig:3049116051670450180]
+(I) [14:23:51.250] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\arthre.sga 8365518 B [ID:2cd9426f658c78085b3c9636b688a407] [Ver:7b1b0f299e2a7d69da121803fc1832c2] [Sig:14907422331141189532]
+(I) [14:23:51.252] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\artmalian.sga 4649717 B [ID:29b136611af96e3635aa69db7924f371] [Ver:11089d732f3cedac17445fa4e26c048f] [Sig:16623410761381191]
+(I) [14:23:51.254] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\artmongols.sga 6547474 B [ID:fbe36b2d57b65570e87e63a23c830eca] [Ver:dedaffd44cf14a4913c0477f5712a334] [Sig:2878843416098957415]
+(I) [14:23:51.257] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\artottoman.sga 4633930 B [ID:f37ca7234f3b5f87a626cbdba675408f] [Ver:c63c3c1c9a7a930bc4ce08516cd72adc] [Sig:11972491964935553615]
+(I) [14:23:51.258] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\artrus.sga 8533366 B [ID:147955ba60fa5b6f1f9d3f1d30dac006] [Ver:c4496a2bd5f9de1eb82de28df5c2c7d5] [Sig:13085517110766122624]
+(I) [14:23:51.260] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\artsultanate.sga 8648186 B [ID:18eda33163592da2ba61529ce754b445] [Ver:24cf0a1124f078f57b171365ca58f0ad] [Sig:8603550369502919512]
+(I) [14:23:51.262] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\artbyzantine.sga 4633761 B [ID:99d546706d1ba0d1a59bf4833cb4661d] [Ver:a8448838c773ab06f3dc4ac5f5682256] [Sig:15624330596228742987]
+(I) [14:23:51.264] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\artjapanese.sga 3981292 B [ID:dd88fab63357b735ba035134eb9672ad] [Ver:8c00ad71ba3f65aba852b69014dc317c] [Sig:17478991249402488055]
+(I) [14:23:51.265] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\artabbasidsha.sga 14352 B [ID:bb0fde22dcf139c14805221868a5ee75] [Ver:7e8cc88c005c3a40167660b5316cdd1e] [Sig:8655686374011660512]
+(I) [14:23:51.266] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\artchineseha.sga 603964 B [ID:ca7c89f93f3278313b22559273fa8306] [Ver:d5972cec9e1d2e65846883eddb79d01a] [Sig:14831361853158451942]
+(I) [14:23:51.267] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\artfrenchha.sga 37173 B [ID:e591dc96989f57d502ab6fae14a588dc] [Ver:71dfe2a202db9beeebb130523d457798] [Sig:9191731475637953962]
+(I) [14:23:51.268] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\arthreha.sga 136617 B [ID:595a5ec4937a8a313ab9f06dcaea285e] [Ver:35bf460e3c669faf4fea91504ce37725] [Sig:477099932383716912]
+(I) [14:23:51.270] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\arttemplar.sga 6255319 B [ID:3c20477da3c8b79085488204434d035f] [Ver:f884c55cc1d61f0c19ca7789c9a1ed5b] [Sig:4427789945470830807]
+(I) [14:23:51.272] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\artlancaster.sga 432582 B [ID:3731bf29387ed36fe4a6e288a9ea1ef6] [Ver:cc7c1354d77f6ef658741389f776b7b5] [Sig:266545945187971389]
+(I) [14:23:51.273] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\artjapaneseha.sga 579688 B [ID:7be3985f380bb914b661411cf89ba4bb] [Ver:1a8c2dc66733401be7392ae0d873cc70] [Sig:5022381797484549879]
+(I) [14:23:51.274] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\artmongolsha.sga 200486 B [ID:a1f4098626c97e577b13118c1ad32ece] [Ver:3b4b18ff7358949509e44daf0ad6c02c] [Sig:5425241088350665092]
+(I) [14:23:51.275] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\artsultanateha.sga 663716 B [ID:d29fc37b3d5b3192f1aade624c8e8b73] [Ver:b1177cd3bfb0b77516c4753f9b32a4ff] [Sig:11196146225604783536]
+(I) [14:23:51.276] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\artbyzantineha.sga 348649 B [ID:c40caa99031cac133c456b59dfb93d66] [Ver:eed7e01c546acf25081dd7b5c66215d7] [Sig:1146878658895666107]
+(I) [14:23:51.277] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\tools\archives\data.sga 1852 B [ID:94195021539650ebc2111161f08a5693] [Ver:46c96a6efa0e1a0bbb05963daa12fd12] [Sig:16740000036278800819]
+(I) [14:23:51.277] [000021424]: Archive [DevOnly] is [missing]! [Skipping.]
+(I) [14:23:51.277] [000021424]: Archive [DevOnly] is [missing]! [Skipping.]
+(I) [14:23:51.277] [000021424]: Archive [OTAPatchAssets] is [missing]! [Skipping.]
+(I) [14:23:51.279] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\tensorflow.sga 2791842 B [ID:a90e31fb9bdbd9d1907690832455739e] [Ver:3d2833c5dcd7fa2050eb7f9fd2c195d2] [Sig:101468207716475672]
+(I) [14:23:51.281] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\campaigntensorflow.sga 1184909 B [ID:a29737bb04597fc31394a66f2c121ff4] [Ver:0c298e86a4eba7f962c2b29d3dfb2cc1] [Sig:12464512030553846394]
+(I) [14:23:51.282] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\engine\archives\datarrtex.sga 10815944 B [ID:2621dfd56f5c247f82dd02723974d115] [Ver:a0f4cf328f5f8bf017ad7969030b5acb] [Sig:263084267478123689]
+(I) [14:23:51.291] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\data.sga 35507727 B [ID:f4b1338f05099577586aca4849e71887] [Ver:df1cb80e78aa99c65fc9a0736ad1bafc] [Sig:11832720726723160401]
+(I) [14:23:51.322] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\campaigndata.sga 5804276 B [ID:3153ae39a848ec5c99fe004f4363e020] [Ver:dbded5a1bd75928514ff695909866fc7] [Sig:5449944992011835804]
+(I) [14:23:51.323] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\scenarios.sga 114393076 B [ID:14a8a0e59b40c543e6087f69fee1f85e] [Ver:01466888a8f332e26ff0238246e02278] [Sig:4926373644831622710]
+(I) [14:23:51.327] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\scenariossp.sga 370060484 B [ID:660d975e8673cc3f148c18157ca51349] [Ver:8d428b5ff85b365d79d6006850bb1c85] [Sig:11399188246550852580]
+(I) [14:23:51.329] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\scenariosspxp3.sga 65678846 B [ID:08a258d97ba61a4e75a494dd25eb9f50] [Ver:03453bf091338e9ae4ada1f39e523d0d] [Sig:892526690823107619]
+(I) [14:23:51.331] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\xp3data.sga 8583527 B [ID:8e868036ec177df4e44fd24536cbb19c] [Ver:0360ef50411891160143b878f8c4c6e7] [Sig:17392600547651816286]
+(I) [14:23:51.333] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\xp3tensorflow.sga 1184894 B [ID:57fa5b4a6dd79e4c7f410ef07d631053] [Ver:c0d1e61d78ddacfe6ab6e6ce6492d8ea] [Sig:7078484262931189540]
+(I) [14:23:51.334] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\engine\archives\arthigh.sga 4265 B [ID:e8f87e4ac202807565d2b4980453804d] [Ver:e208ab107fd5a4a822bbd1d247bac549] [Sig:14839946367307866860]
+(I) [14:23:51.338] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\arthigh.sga 322429254 B [ID:99da1b8f8572c24ec631e9f73acb000d] [Ver:b125721fbb1c1800e798903f9a9b5c65] [Sig:3505750688705473612]
+(I) [14:23:51.350] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\localeenglish.sga 709650 B [ID:7c016c99df8f6c8651bc31c70aa32076] [Ver:fe15a00cd452ecf3c627b709ff58af72] [Sig:9282973425693383796]
+(I) [14:23:51.350] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\engine\archives\reflect.sga 1482057 B [ID:cf317ce4d037d959d1f61ec4ba4b95da] [Ver:3823a0aa3bc5d0cd222f23cedce26311] [Sig:11569160947053234454]
+(I) [14:23:51.350] [000021424]: Loading step: [Localization]
+(I) [14:23:51.384] [000021424]: Loading step: [Game]
+(I) [14:23:51.384] [000021424]: Loading step: [SimStaticApp]
+(I) [14:23:51.384] [000021424]: Loading step: [Family Manager]
+(I) [14:23:51.397] [000021424]: Loading step: [Initialize Resource Types]
+(I) [14:23:51.397] [000021424]: Loading step: [SimApp]
+(I) [14:23:51.397] [000021424]: Loading step: [Property Bag Registration]
+(I) [14:23:51.399] [000021424]: Loading step: [Sound - Rtpc Event Database Init]
+(I) [14:23:51.399] [000021424]: Loading step: [Property Bag Manager]
+(I) [14:23:58.643] [000021424]: PropertyBagManager Loaded in 7.244000s
+(I) [14:23:58.643] [000021424]: Loading step: [Sim State Tree Manager]
+(I) [14:23:59.000] [000021424]: Loading step: [PBG PostLoad]
+(I) [14:23:59.141] [000021424]: PropertyBagManager post loaded in 0.140000s
+(I) [14:23:59.141] [000021424]: Loading step: [Modifier Callbacks Initialize]
+(I) [14:23:59.141] [000021424]: Loading step: [HandleIndex Manager]
+(I) [14:23:59.141] [000021424]: Loading step: [EntityBlueprintManager]
+(I) [14:23:59.147] [000021424]: Loading step: [ReflectPostExternalSystemsInited]
+(I) [14:23:59.159] [000021424]: Loading step: [ModPackManager]
+(I) [14:23:59.159] [000021424]: Loading step: [ModDllSetup]
+(I) [14:23:59.159] [000021424]: Loading step: [FilePath Filter]
+(I) [14:23:59.159] [000021424]: Loading step: [Locale System]
+(I) [14:23:59.159] [000021424]: Loading step: [Compatible Architecture Check]
+(I) [14:23:59.159] [000021424]: Loading step: [Compatible OS Check]
+(I) [14:23:59.159] [000021424]: Loading step: [Multicore Check]
+(I) [14:23:59.159] [000021424]: Loading step: [Running in compatibility mode check]
+(I) [14:23:59.160] [000021424]: Loading step: [Free RAM Check]
+(I) [14:23:59.160] [000021424]: Loading step: [Parental Control]
+(I) [14:23:59.170] [000021424]: Loading step: [NetworkGlobal]
+(I) [14:23:59.191] [000021424]: Initializing Server Settings: server=dr-activerelease1, title=age4
+(E) [14:23:59.195] [000021424]: AC Enabled
+(I) [14:23:59.196] [000021424]: WorldwideLoginService::WorldwideLoginService - initializing
+(I) [14:23:59.197] [000021424]: SystemCertsWin: Opened the CA system store.
+(I) [14:23:59.197] [000021424]: WindowsCertificates: Adding certificate; subject=/DC=com/DC=microsoft/CN=Microsoft Root Certificate Authority issuer=/DC=com/DC=microsoft/CN=Microsoft Root Certificate Authority
+(I) [14:23:59.197] [000021424]: WindowsCertificates: Adding certificate; subject=/C=ZA/ST=Western Cape/L=Durbanville/O=Thawte/OU=Thawte Certification/CN=Thawte Timestamping CA issuer=/C=ZA/ST=Western Cape/L=Durbanville/O=Thawte/OU=Thawte Certification/CN=Thawte Timestamping CA
+(I) [14:23:59.197] [000021424]: WindowsCertificates: Adding certificate; subject=/OU=Copyright (c) 1997 Microsoft Corp./OU=Microsoft Corporation/CN=Microsoft Root Authority issuer=/OU=Copyright (c) 1997 Microsoft Corp./OU=Microsoft Corporation/CN=Microsoft Root Authority
+(I) [14:23:59.197] [000021424]: WindowsCertificates: Adding certificate; subject=/C=US/O=Symantec Corporation/CN=Symantec Enterprise Mobile Root for Microsoft issuer=/C=US/O=Symantec Corporation/CN=Symantec Enterprise Mobile Root for Microsoft
+(I) [14:23:59.197] [000021424]: WindowsCertificates: Adding certificate; subject=/C=US/ST=Washington/L=Redmond/O=Microsoft Corporation/CN=Microsoft Root Certificate Authority 2011 issuer=/C=US/ST=Washington/L=Redmond/O=Microsoft Corporation/CN=Microsoft Root Certificate Authority 2011
+(I) [14:23:59.197] [000021424]: WindowsCertificates: Adding certificate; subject=/C=US/O=MSFT/CN=Microsoft Authenticode(tm) Root Authority issuer=/C=US/O=MSFT/CN=Microsoft Authenticode(tm) Root Authority
+(I) [14:23:59.197] [000021424]: WindowsCertificates: Adding certificate; subject=/C=US/ST=Washington/L=Redmond/O=Microsoft Corporation/CN=Microsoft Root Certificate Authority 2010 issuer=/C=US/ST=Washington/L=Redmond/O=Microsoft Corporation/CN=Microsoft Root Certificate Authority 2010
+(I) [14:23:59.197] [000021424]: WindowsCertificates: Adding certificate; subject=/C=US/ST=Washington/L=Redmond/O=Microsoft Corporation/CN=Microsoft ECC TS Root Certificate Authority 2018 issuer=/C=US/ST=Washington/L=Redmond/O=Microsoft Corporation/CN=Microsoft ECC TS Root Certificate Authority 2018
+(I) [14:23:59.197] [000021424]: WindowsCertificates: Adding certificate; subject=/O=Microsoft Trust Network/OU=Microsoft Corporation/OU=Microsoft Time Stamping Service Root/OU=Copyright (c) 1997 Microsoft Corp. issuer=/O=Microsoft Trust Network/OU=Microsoft Corporation/OU=Microsoft Time Stamping Service Root/OU=Copyright (c) 1997 Microsoft Corp.
+(I) [14:23:59.197] [000021424]: WindowsCertificates: Adding certificate; subject=/O=VeriSign Trust Network/OU=VeriSign, Inc./OU=VeriSign Time Stamping Service Root/OU=NO LIABILITY ACCEPTED, (c)97 VeriSign, Inc. issuer=/O=VeriSign Trust Network/OU=VeriSign, Inc./OU=VeriSign Time Stamping Service Root/OU=NO LIABILITY ACCEPTED, (c)97 VeriSign, Inc.
+(I) [14:23:59.197] [000021424]: WindowsCertificates: Adding certificate; subject=/C=US/ST=Washington/L=Redmond/O=Microsoft Corporation/CN=Microsoft ECC Product Root Certificate Authority 2018 issuer=/C=US/ST=Washington/L=Redmond/O=Microsoft Corporation/CN=Microsoft ECC Product Root Certificate Authority 2018
+(I) [14:23:59.197] [000021424]: WindowsCertificates: Adding certificate; subject=/C=US/ST=Washington/L=Redmond/O=Microsoft Corporation/CN=Microsoft Time Stamp Root Certificate Authority 2014 issuer=/C=US/ST=Washington/L=Redmond/O=Microsoft Corporation/CN=Microsoft Time Stamp Root Certificate Authority 2014
+(I) [14:23:59.197] [000021424]: WindowsCertificates: Adding certificate; subject=/C=US/O=DigiCert Inc/OU=www.digicert.com/CN=DigiCert Global Root G2 issuer=/C=US/O=DigiCert Inc/OU=www.digicert.com/CN=DigiCert Global Root G2
+(I) [14:23:59.197] [000021424]: WindowsCertificates: Adding certificate; subject=/C=BM/O=QuoVadis Limited/OU=Root Certification Authority/CN=QuoVadis Root Certification Authority issuer=/C=BM/O=QuoVadis Limited/OU=Root Certification Authority/CN=QuoVadis Root Certification Authority
+(I) [14:23:59.197] [000021424]: WindowsCertificates: Adding certificate; subject=/C=US/O=DigiCert Inc/OU=www.digicert.com/CN=DigiCert Trusted Root G4 issuer=/C=US/O=DigiCert Inc/OU=www.digicert.com/CN=DigiCert Trusted Root G4
+(I) [14:23:59.197] [000021424]: WindowsCertificates: Adding certificate; subject=/OU=GlobalSign Root CA - R3/O=GlobalSign/CN=GlobalSign issuer=/OU=GlobalSign Root CA - R3/O=GlobalSign/CN=GlobalSign
+(I) [14:23:59.197] [000021424]: WindowsCertificates: Adding certificate; subject=/C=GB/ST=Greater Manchester/L=Salford/O=Comodo CA Limited/CN=AAA Certificate Services issuer=/C=GB/ST=Greater Manchester/L=Salford/O=Comodo CA Limited/CN=AAA Certificate Services
+(I) [14:23:59.197] [000021424]: WindowsCertificates: Adding certificate; subject=/C=US/ST=New Jersey/L=Jersey City/O=The USERTRUST Network/CN=USERTrust ECC Certification Authority issuer=/C=US/ST=New Jersey/L=Jersey City/O=The USERTRUST Network/CN=USERTrust ECC Certification Authority
+(I) [14:23:59.197] [000021424]: WindowsCertificates: Adding certificate; subject=/C=US/O=Internet Security Research Group/CN=ISRG Root X1 issuer=/C=US/O=Internet Security Research Group/CN=ISRG Root X1
+(I) [14:23:59.197] [000021424]: WindowsCertificates: Adding certificate; subject=/C=US/ST=Arizona/L=Scottsdale/O=Starfield Technologies, Inc./CN=Starfield Root Certificate Authority - G2 issuer=/C=US/ST=Arizona/L=Scottsdale/O=Starfield Technologies, Inc./CN=Starfield Root Certificate Authority - G2
+(I) [14:23:59.199] [000021424]: WindowsCertificates: Adding certificate; subject=/C=BE/O=GlobalSign nv-sa/OU=Root CA/CN=GlobalSign Root CA issuer=/C=BE/O=GlobalSign nv-sa/OU=Root CA/CN=GlobalSign Root CA
+(I) [14:23:59.199] [000021424]: WindowsCertificates: Adding certificate; subject=/C=GB/ST=Greater Manchester/L=Salford/O=COMODO CA Limited/CN=COMODO RSA Certification Authority issuer=/C=GB/ST=Greater Manchester/L=Salford/O=COMODO CA Limited/CN=COMODO RSA Certification Authority
+(I) [14:23:59.199] [000021424]: WindowsCertificates: Adding certificate; subject=/C=GB/O=Sectigo Limited/CN=Sectigo Public Server Authentication Root R46 issuer=/C=GB/O=Sectigo Limited/CN=Sectigo Public Server Authentication Root R46
+(I) [14:23:59.199] [000021424]: WindowsCertificates: Adding certificate; subject=/C=US/O=Starfield Technologies, Inc./OU=Starfield Class 2 Certification Authority issuer=/C=US/O=Starfield Technologies, Inc./OU=Starfield Class 2 Certification Authority
+(I) [14:23:59.199] [000021424]: WindowsCertificates: Adding certificate; subject=/C=US/O=DigiCert Inc/OU=www.digicert.com/CN=DigiCert Global Root CA issuer=/C=US/O=DigiCert Inc/OU=www.digicert.com/CN=DigiCert Global Root CA
+(I) [14:23:59.199] [000021424]: WindowsCertificates: Adding certificate; subject=/C=TW/O=TAIWAN-CA/OU=Root CA/CN=TWCA Global Root CA issuer=/C=TW/O=TAIWAN-CA/OU=Root CA/CN=TWCA Global Root CA
+(I) [14:23:59.199] [000021424]: WindowsCertificates: Adding certificate; subject=/C=US/ST=Arizona/L=Scottsdale/O=Starfield Technologies, Inc./CN=Starfield Services Root Certificate Authority - G2 issuer=/C=US/ST=Arizona/L=Scottsdale/O=Starfield Technologies, Inc./CN=Starfield Services Root Certificate Authority - G2
+(I) [14:23:59.199] [000021424]: WindowsCertificates: Adding certificate; subject=/C=US/O=thawte, Inc./OU=Certification Services Division/OU=(c) 2006 thawte, Inc. - For authorized use only/CN=thawte Primary Root CA issuer=/C=US/O=thawte, Inc./OU=Certification Services Division/OU=(c) 2006 thawte, Inc. - For authorized use only/CN=thawte Primary Root CA
+(I) [14:23:59.199] [000021424]: WindowsCertificates: Adding certificate; subject=/OU=GlobalSign Root CA - R6/O=GlobalSign/CN=GlobalSign issuer=/OU=GlobalSign Root CA - R6/O=GlobalSign/CN=GlobalSign
+(I) [14:23:59.199] [000021424]: WindowsCertificates: Adding certificate; subject=/C=US/O=DigiCert Inc/OU=www.digicert.com/CN=DigiCert Global Root G3 issuer=/C=US/O=DigiCert Inc/OU=www.digicert.com/CN=DigiCert Global Root G3
+(I) [14:23:59.199] [000021424]: WindowsCertificates: Adding certificate; subject=/C=US/ST=Texas/L=Houston/O=SSL Corporation/CN=SSL.com EV Root Certification Authority RSA R2 issuer=/C=US/ST=Texas/L=Houston/O=SSL Corporation/CN=SSL.com EV Root Certification Authority RSA R2
+(I) [14:23:59.199] [000021424]: WindowsCertificates: Adding certificate; subject=/C=US/O=VeriSign, Inc./OU=Class 3 Public Primary Certification Authority issuer=/C=US/O=VeriSign, Inc./OU=Class 3 Public Primary Certification Authority
+(I) [14:23:59.199] [000021424]: WindowsCertificates: Adding certificate; subject=/C=US/O=Microsoft Corporation/CN=Microsoft RSA Root Certificate Authority 2017 issuer=/C=US/O=Microsoft Corporation/CN=Microsoft RSA Root Certificate Authority 2017
+(I) [14:23:59.199] [000021424]: WindowsCertificates: Adding certificate; subject=/C=US/O=DigiCert Inc/OU=www.digicert.com/CN=DigiCert High Assurance EV Root CA issuer=/C=US/O=DigiCert Inc/OU=www.digicert.com/CN=DigiCert High Assurance EV Root CA
+(I) [14:23:59.199] [000021424]: WindowsCertificates: Adding certificate; subject=/C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication RootCA2 issuer=/C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication RootCA2
+(I) [14:23:59.199] [000021424]: WindowsCertificates: Adding certificate; subject=/C=US/O=DigiCert, Inc./CN=DigiCert CS RSA4096 Root G5 issuer=/C=US/O=DigiCert, Inc./CN=DigiCert CS RSA4096 Root G5
+(I) [14:23:59.199] [000021424]: WindowsCertificates: Adding certificate; subject=/O=Entrust.net/OU=www.entrust.net/CPS_2048 incorp. by ref. (limits liab.)/OU=(c) 1999 Entrust.net Limited/CN=Entrust.net Certification Authority (2048) issuer=/O=Entrust.net/OU=www.entrust.net/CPS_2048 incorp. by ref. (limits liab.)/OU=(c) 1999 Entrust.net Limited/CN=Entrust.net Certification Authority (2048)
+(I) [14:23:59.199] [000021424]: WindowsCertificates: Adding certificate; subject=/C=BE/O=GlobalSign nv-sa/CN=GlobalSign Code Signing Root R45 issuer=/C=BE/O=GlobalSign nv-sa/CN=GlobalSign Code Signing Root R45
+(I) [14:23:59.199] [000021424]: WindowsCertificates: Adding certificate; subject=/C=US/O=VeriSign, Inc./OU=VeriSign Trust Network/OU=(c) 2006 VeriSign, Inc. - For authorized use only/CN=VeriSign Class 3 Public Primary Certification Authority - G5 issuer=/C=US/O=VeriSign, Inc./OU=VeriSign Trust Network/OU=(c) 2006 VeriSign, Inc. - For authorized use only/CN=VeriSign Class 3 Public Primary Certification Authority - G5
+(I) [14:23:59.199] [000021424]: WindowsCertificates: Adding certificate; subject=/C=US/ST=Arizona/L=Scottsdale/O=GoDaddy.com, Inc./CN=Go Daddy Root Certificate Authority - G2 issuer=/C=US/ST=Arizona/L=Scottsdale/O=GoDaddy.com, Inc./CN=Go Daddy Root Certificate Authority - G2
+(I) [14:23:59.199] [000021424]: WindowsCertificates: Adding certificate; subject=/C=US/O=VeriSign, Inc./OU=VeriSign Trust Network/OU=(c) 2008 VeriSign, Inc. - For authorized use only/CN=VeriSign Universal Root Certification Authority issuer=/C=US/O=VeriSign, Inc./OU=VeriSign Trust Network/OU=(c) 2008 VeriSign, Inc. - For authorized use only/CN=VeriSign Universal Root Certification Authority
+(I) [14:23:59.199] [000021424]: WindowsCertificates: Adding certificate; subject=/C=US/ST=Illinois/L=Chicago/O=Trustwave Holdings, Inc./CN=Trustwave Global Certification Authority issuer=/C=US/ST=Illinois/L=Chicago/O=Trustwave Holdings, Inc./CN=Trustwave Global Certification Authority
+(I) [14:23:59.199] [000021424]: WindowsCertificates: Adding certificate; subject=/C=US/ST=New Jersey/L=Jersey City/O=The USERTRUST Network/CN=USERTrust RSA Certification Authority issuer=/C=US/ST=New Jersey/L=Jersey City/O=The USERTRUST Network/CN=USERTrust RSA Certification Authority
+(I) [14:23:59.199] [000021424]: WindowsCertificates: Adding certificate; subject=/C=US/O=The Go Daddy Group, Inc./OU=Go Daddy Class 2 Certification Authority issuer=/C=US/O=The Go Daddy Group, Inc./OU=Go Daddy Class 2 Certification Authority
+(I) [14:23:59.199] [000021424]: WindowsCertificates: Adding certificate; subject=/C=PL/O=Unizeto Technologies S.A./OU=Certum Certification Authority/CN=Certum Trusted Network CA issuer=/C=PL/O=Unizeto Technologies S.A./OU=Certum Certification Authority/CN=Certum Trusted Network CA
+(I) [14:23:59.199] [000021424]: WindowsCertificates: Adding certificate; subject=/C=US/O=DigiCert Inc/OU=www.digicert.com/CN=DigiCert Assured ID Root CA issuer=/C=US/O=DigiCert Inc/OU=www.digicert.com/CN=DigiCert Assured ID Root CA
+(I) [14:23:59.199] [000021424]: WindowsCertificates: Adding certificate; subject=/C=SE/O=AddTrust AB/OU=AddTrust External TTP Network/CN=AddTrust External CA Root issuer=/C=SE/O=AddTrust AB/OU=AddTrust External TTP Network/CN=AddTrust External CA Root
+(I) [14:23:59.199] [000021424]: SystemCertsWin: 47 certificates loaded
+(I) [14:23:59.227] [000021424]: AutomatchInternal: Instantiating
+(I) [14:23:59.251] [000021424]: NetworkLoadCallback not able to open file CloudFileMetadataCache-age4-dr-activerelease1.dat
+(I) [14:23:59.251] [000021424]: WindowsCertificates: Adding certificate; subject=/C=CA/ST=British Columbia/L=Vancouver/O=Relic Entertainment/CN=RelicLink Root CA issuer=/C=CA/ST=British Columbia/L=Vancouver/O=Relic Entertainment/CN=RelicLink Root CA
+(I) [14:23:59.255] [000021424]: XAL_TELEMETRY: AppActivation Version="2024.02.20240220.000"
+(I) [14:23:59.255] [000021424]: Loading step: [CrossplaySettingListener]
+(I) [14:23:59.255] [000021424]: Loading step: [Telemetry]
+(I) [14:23:59.261] [000021424]: Loading step: [Lua Libraries]
+(I) [14:23:59.268] [000021424]: Loading step: [Lua Tools]
+(I) [14:23:59.269] [000021424]: Loading step: [System Tests]
+(I) [14:23:59.269] [000021424]: Loading step: [Command DB]
+(I) [14:23:59.290] [000021424]: Loading step: [InitGameActivator]
+(I) [14:23:59.290] [000021424]: Loading step: [InitThreadingModel]
+(I) [14:23:59.290] [000021424]: Primary CPU is a 2208MHz [Intel(R) Core(TM) i7-10870H CPU @ 2.20GHz] running at 2208MHz
+(I) [14:23:59.290] [000021424]: Architecture [9], Level [6], Revision [42242].
+(I) [14:23:59.290] [000021424]: 16 logical processor(s) detected.
+(I) [14:23:59.290] [000021424]: 8 physical processor(s) detected.
+(I) [14:23:59.290] [000021424]: 1 processor(s) nodes detected.
+(I) [14:23:59.291] [000021424]: Threading system initialized to [12]/[12] cores
+(I) [14:23:59.291] [000021424]: Loading step: [InitComponentFactory]
+(I) [14:23:59.291] [000021424]: Loading step: [Inventory]
+(I) [14:23:59.291] [000021424]: Loading step: [Autodetect Settings]
+(I) [14:23:59.323] [000021424]: Enumerating Graphics Adapters
+(I) [14:23:59.528] [000021424]: Choosing first adapter
+(I) [14:23:59.528] [000021424]: Adapter: NVIDIA GeForce RTX 3060 Laptop GPU video dedicated: 6285164544 shared: 17113470976 system dedicated: 0
+(I) [14:23:59.566] [000021424]: Checking against Adapter: Intel(R) UHD Graphics video dedicated: 134217728 shared: 17113470976 system dedicated: 0
+(I) [14:23:59.566] [000021424]: Adapter ignored, we already have a good dedicated, and this one doesn't have better dedicated memory
+(I) [14:23:59.577] [000021424]: Checking against Adapter: Microsoft Basic Render Driver video dedicated: 0 shared: 17113470976 system dedicated: 0
+(I) [14:23:59.577] [000021424]: Adapter ignored, we already have a good dedicated, and this one doesn't have better dedicated memory
+(I) [14:23:59.577] [000021424]: Chosen adapter: NVIDIA GeForce RTX 3060 Laptop GPU video dedicated: 6285164544 shared: 17113470976 system dedicated: 0
+(I) [14:23:59.578] [000021424]: Enumerating Graphics Adapters
+(I) [14:23:59.754] [000021424]: Choosing first adapter
+(I) [14:23:59.754] [000021424]: Adapter: NVIDIA GeForce RTX 3060 Laptop GPU video dedicated: 6285164544 shared: 17113470976 system dedicated: 0
+(I) [14:23:59.780] [000021424]: Checking against Adapter: Intel(R) UHD Graphics video dedicated: 134217728 shared: 17113470976 system dedicated: 0
+(I) [14:23:59.780] [000021424]: Adapter ignored, we already have a good dedicated, and this one doesn't have better dedicated memory
+(I) [14:23:59.791] [000021424]: Checking against Adapter: Microsoft Basic Render Driver video dedicated: 0 shared: 17113470976 system dedicated: 0
+(I) [14:23:59.791] [000021424]: Adapter ignored, we already have a good dedicated, and this one doesn't have better dedicated memory
+(I) [14:23:59.791] [000021424]: Chosen adapter: NVIDIA GeForce RTX 3060 Laptop GPU video dedicated: 6285164544 shared: 17113470976 system dedicated: 0
+(I) [14:23:59.812] [000021424]: Graphics Auto-Detect: Hardware type 0 (Desktop)
+(I) [14:23:59.812] [000021424]: Graphics Auto-Detect: CPU core count detected as 8C/16T.
+(I) [14:23:59.812] [000021424]: Graphics Auto-Detect: CPU Frequency detected as 2208 MHz.
+(I) [14:23:59.812] [000021424]: Graphics Auto-Detect: CPU Score calculated as 22963.
+(I) [14:23:59.812] [000021424]: Graphics Auto-Detect: RAM size detected as 32641 MB
+(I) [14:23:59.816] [000021424]: Nvidia GPU Graphics Clock (MHz): 1605
+(I) [14:23:59.816] [000021424]: Nvidia GPU Shader Unit Count: 3840
+(I) [14:23:59.817] [000021424]: Nvidia GPU Computed Relative Performance: 147.24
+(I) [14:23:59.817] [000021424]: Graphics Auto-Detect: GPU performance level calculated as 4 (4K-capable), performance score 147.235718
+(I) [14:23:59.817] [000021424]: Graphics Auto-Detect: VRAM size detected as 5994 MB
+(I) [14:23:59.817] [000021424]: Graphics Auto-Detect: Overriding defaults for these settings groups: autoconfig_baseline, autoconfig_cpu_medium, autoconfig_ram_high, autoconfig_gpu_gen9_2160p, autoconfig_gpu_vram_medium, autoconfig_audio_medium
+(I) [14:23:59.819] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\soundspeechcampaignleaders.sga 4026980 B [ID:7965640ab0c1bf7ba2373a19d2e7b069] [Ver:00710704aac2eb066d6d7641a83d51dd] [Sig:9778984940799653023]
+(I) [14:23:59.828] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\soundspeechchinese.sga 309655970 B [ID:e19627d267be517bf5392c2e6014c423] [Ver:1341763aebf36944f1499d0251617f55] [Sig:12764097569712532542]
+(I) [14:23:59.893] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\soundspeechenglish.sga 288475759 B [ID:feaf97340d27ade41677b3c3df1ba56f] [Ver:fa737288404947297e55d316fbb77dc9] [Sig:12107641221237261204]
+(I) [14:23:59.944] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\soundspeechfrench.sga 275866805 B [ID:bb0a6805c37931642df8dfc59ace3577] [Ver:b3518addefc388a6d693577268ec9a49] [Sig:1114318825139388170]
+(I) [14:24:00.000] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\soundspeechhre.sga 267815661 B [ID:b9b7b1c4746a5da164c4122c43af789d] [Ver:7a642987e09a6b91054166acd9d520f4] [Sig:1053406962797851544]
+(I) [14:24:00.047] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\soundspeechmisc.sga 2365100 B [ID:e4c186b521460161f56ea8bd2b98da2b] [Ver:d27e40627b1f9ae331530925c2b5212a] [Sig:7710416283972117561]
+(I) [14:24:00.057] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\soundspeechmongols.sga 330547847 B [ID:05c84958f92c54139e30273e08245a4d] [Ver:440515c36d22f937177d3502b670cc02] [Sig:14276426608469628689]
+(I) [14:24:00.124] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\soundspeechrus.sga 317132347 B [ID:571a52b40cc6bc0ea9986dde60365cd8] [Ver:2d9b429f93cb5f12b3aa414dae87c225] [Sig:1943781344602485715]
+(I) [14:24:00.180] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\soundspeechsultanate.sga 248334431 B [ID:89b1937c7703937f5844dc4ec15f22f9] [Ver:6b18a9787a422cdabbf287591a5328a8] [Sig:5320005402447518411]
+(I) [14:24:00.214] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\soundspeechabbasid.sga 353720911 B [ID:762a11281de7ccf41b2c9854c76b0870] [Ver:8662b4db32f6fbba950e0d230e741994] [Sig:5512199611676468533]
+(I) [14:24:00.275] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\soundspeechmalian.sga 199992843 B [ID:29d538156ec209da74ba454e6a0b589c] [Ver:b4c7cd64a7d639670e447bb9fe03cec8] [Sig:7261636489305388131]
+(I) [14:24:00.310] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\soundspeechottoman.sga 214285612 B [ID:a785e43d2b6f581274e33dcaa7a2048e] [Ver:e305d172bbe7f7006d60407b9b0b47ae] [Sig:17848682699058885847]
+(I) [14:24:00.346] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\soundspeechbyzantine.sga 103841948 B [ID:a4b2db8f64cf9b559a73e75663595a33] [Ver:a579a7e0a477fdebc955369772a6b4ed] [Sig:17222082278395025076]
+(I) [14:24:00.360] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\soundspeechjapanese.sga 124246912 B [ID:4c8f551c1a9bb01657cc9776ea1d626f] [Ver:eb5e74852a039e91e645bb2b464d5277] [Sig:2808518091847209109]
+(I) [14:24:00.374] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\soundspeechcampaignlocalizedenglish.sga 62991742 B [ID:b97ee6c9ada021e3cbc5b0d8d8a44c40] [Ver:87f042a5b376484b2f9323a2bbfd304d] [Sig:9687609996755273546]
+(I) [14:24:00.377] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\soundspeechcampaignlocalizedenglishxp3.sga 13692550 B [ID:8b39ce2530a5fcc56eecb4b3d350d5a3] [Ver:4ce911b0ce2fa25a566f7e62e2f0a968] [Sig:11689658881778597245]
+(I) [14:24:00.377] [000021424]: Loading step: [ModManager (RR deferred)]
+(I) [14:24:00.379] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\engine\archives\gen7shadersandedfs.sga 59618 B [ID:1abe0e29d7b50f69ccb5447fb747b1ba] [Ver:b3f1ca3769a3d4efe27aa53025f04474] [Sig:14562719969400126078]
+(I) [14:24:00.380] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\engine\archives\gen7assets.sga 10148887 B [ID:0f5cb99facdcd8c4e676d445f436da8f] [Ver:843901d0b64da171b2fb0fe08c402d7b] [Sig:9036464503001054319]
+(I) [14:24:00.381] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\common\archives\gen7shadersandedfs.sga 3289497 B [ID:3f162f3447dafbcea17086abbfa3bba1] [Ver:93f40875992c8fa5cef2887a45eb1270] [Sig:3385540254481236214]
+(I) [14:24:00.382] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\common\archives\gen7assets.sga 1294479 B [ID:baffebcbc517c2e0a98b9076a772cf32] [Ver:3b3c1ec1a2b52fac2ceeff124919b19b] [Sig:10253650640632825159]
+(I) [14:24:00.385] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\gen7shadersandedfs.sga 8103260 B [ID:638ae993bb936b6b6ce50faa4f804482] [Ver:25853eadbab108d01866e535ef1fe213] [Sig:7551050597541713227]
+(I) [14:24:00.387] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\gen7assetsartgen7.sga 294590431 B [ID:cd29148f2ad50e6022534f30337756ee] [Ver:1ad3a38231fbc03a690040bbc8a897ed] [Sig:6213818654248297727]
+(I) [14:24:00.393] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\gen7assetsgeometry.sga 156457109 B [ID:cd29148f2ad50e6022534f30337756ee] [Ver:2218229388839774e475665a28e774e2] [Sig:14040364484852957407]
+(I) [14:24:00.399] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\gen7assetsgeometrylods1.sga 8439811 B [ID:cd29148f2ad50e6022534f30337756ee] [Ver:1d8702c4b497b1a8cb2d8371dd643f7b] [Sig:2305090164485754347]
+(I) [14:24:00.401] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\gen7assetsgeometrylods2.sga 1966394 B [ID:cd29148f2ad50e6022534f30337756ee] [Ver:a1d43fa33ca454a2c5f9604bc5a0529c] [Sig:13609375942970972027]
+(I) [14:24:00.402] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\gen7assetsgeometrylods3.sga 2336166 B [ID:cd29148f2ad50e6022534f30337756ee] [Ver:5db2258f176afe9eb4cbffd208352c5b] [Sig:16664988422897791458]
+(I) [14:24:00.415] [000021424]: ARC -- c:\program files (x86)\steam\steamapps\common\age of empires iv\cardinal\archives\gen7assetsmaterials.sga 2310000222 B [ID:cd29148f2ad50e6022534f30337756ee] [Ver:3483a7c72e0b4a6f9e5f9892492dbcd3] [Sig:13979886431113947336]
+(I) [14:24:00.507] [000021424]: Loading step: [Graphics driver check]
+(I) [14:24:00.508] [000021424]: Loading step: [AI subsystem]
+(I) [14:24:00.508] [000021424]: Loading step: [Game Hooks]
+(I) [14:24:00.508] [000021424]: Loading step: [Game Modules Init]
+(I) [14:24:00.508] [000021424]: Loading step: [User Data Shutdown]
+(I) [14:24:00.508] [000021424]: Loading step: [dbImGui]
+(I) [14:24:00.508] [000021424]: Loading step: [App Init Complete]
+(I) [14:24:00.512] [000021424]: Registered essence thread: [Main_Thread] usesRcssWorkerThreads: [true]
+(I) [14:24:00.512] [000022980]: Registered essence thread: [Simulation_Thread] usesRcssWorkerThreads: [true]
+(I) [14:24:00.553] [000021424]: -------- Display Adapter Driver Information --------
+(I) [14:24:00.553] [000021424]: Vendor: NVIDIA (0x10DE)
+(I) [14:24:00.553] [000021424]: Installed Driver Version: r591_66 (59174)
+(I) [14:24:00.553] [000021424]: Required Driver Version: 471.41 (47141)
+(I) [14:24:00.553] [000021424]: ----------------------------------------------------
+(I) [14:24:00.553] [000021424]: Nvidia GPU Graphics Clock (MHz): 1605
+(I) [14:24:00.553] [000021424]: Nvidia GPU Shader Unit Count: 3840
+(I) [14:24:00.553] [000021424]: Nvidia GPU Computed Relative Performance: 147.24
+(I) [14:24:00.553] [000021424]: GPU Performance Class: Gen9 4K
+(I) [14:24:00.580] [000018360]: Enumerating Graphics Adapters
+(I) [14:24:00.789] [000018360]: Choosing first adapter
+(I) [14:24:00.789] [000018360]: Adapter: NVIDIA GeForce RTX 3060 Laptop GPU video dedicated: 6285164544 shared: 17113470976 system dedicated: 0
+(I) [14:24:00.820] [000018360]: Checking against Adapter: Intel(R) UHD Graphics video dedicated: 134217728 shared: 17113470976 system dedicated: 0
+(I) [14:24:00.820] [000018360]: Adapter ignored, we already have a good dedicated, and this one doesn't have better dedicated memory
+(I) [14:24:00.835] [000018360]: Checking against Adapter: Microsoft Basic Render Driver video dedicated: 0 shared: 17113470976 system dedicated: 0
+(I) [14:24:00.835] [000018360]: Adapter ignored, we already have a good dedicated, and this one doesn't have better dedicated memory
+(I) [14:24:00.835] [000018360]: Chosen adapter: NVIDIA GeForce RTX 3060 Laptop GPU video dedicated: 6285164544 shared: 17113470976 system dedicated: 0
+(I) [14:24:01.400] [000018360]: -------- GPU and Output INFO --------
+(I) [14:24:01.401] [000018360]: NVIDIA GeForce RTX 3060 Laptop GPU -- 5994MB dedicated video memory, 0MB dedicated system memory and 16320MB shared system memory available.
+(I) [14:24:01.401] [000018360]: Primary Output Device is \\.\DISPLAY4, Resolution is 1920x1080
+(I) [14:24:01.402] [000018360]: Intel(R) UHD Graphics -- 128MB dedicated video memory, 0MB dedicated system memory and 16320MB shared system memory available.
+(I) [14:24:01.402] [000018360]: Microsoft Basic Render Driver -- 0MB dedicated video memory, 0MB dedicated system memory and 16320MB shared system memory available.
+(I) [14:24:01.913] [000021424]: Loading step: [Render Anim]
+(I) [14:24:01.913] [000021424]: Loading step: [Havok]
+(I) [14:24:01.913] [000007584]: Registered essence thread: [Render_Thread] usesRcssWorkerThreads: [true]
+(I) [14:24:01.988] [000021424]: Loading step: [Alias]
+(I) [14:24:01.988] [000021424]: Loading step: [Hotswapping]
+(I) [14:24:01.988] [000021424]: Loading step: [ITextureUtil]
+(I) [14:24:01.988] [000021424]: Loading step: [TextureManager]
+(I) [14:24:01.989] [000021424]: Loading step: [Loaders]
+(I) [14:24:01.989] [000021424]: Loading step: [ActionCommandFunction]
+(I) [14:24:01.989] [000021424]: Loading step: [TeamColourCommandFunction]
+(I) [14:24:01.989] [000021424]: Loading step: [SetShaderVariableCommandFunction]
+(I) [14:24:01.989] [000021424]: Loading step: [SetMaterialOverrideCommandFunction]
+(I) [14:24:01.989] [000021424]: Loading step: [IntersectUtil]
+(I) [14:24:01.989] [000021424]: Loading step: [ShadowManager]
+(I) [14:24:01.989] [000021424]: Loading step: [Debug Render]
+(I) [14:24:01.989] [000021424]: Loading step: [Sound]
+(I) [14:24:02.492] [000021424]: Loading step: [Fonts]
+(I) [14:24:02.495] [000021424]: Loading step: [Statgraph]
+(I) [14:24:02.495] [000021424]: Loading step: [Debug Console]
+(I) [14:24:02.495] [000021424]: Loading step: [Movie Manager]
+(I) [14:24:02.495] [000021424]: Loading step: [Flush Inventory]
+(I) [14:24:02.495] [000021424]: Loading step: [Purge BackgroundLoader]
+(I) [14:24:02.495] [000021424]: Loading step: [Unload inventory]
+(I) [14:24:02.495] [000021424]: Loading step: [Cancel Pending Soundbank Loads]
+(I) [14:24:02.495] [000021424]: GameViewport::Create
+(I) [14:24:02.577] [000021424]: Loading step: [Init Screen Background]
+(I) [14:24:02.577] [000021424]: Loading step: [Cursor]
+(I) [14:24:02.627] [000021424]: Failed to load lua file 'data:art\cursor\modal_set_rally_attack\cursor.lua'
+(I) [14:24:02.627] [000021424]: Failed to load lua file 'data:art\cursor\modal_set_rally_economy\cursor.lua'
+(I) [14:24:02.633] [000021424]: Failed to load lua file 'data:art\cursor\reposition_unload_wall\cursor.lua'
+(I) [14:24:02.638] [000021424]: Failed to load lua file 'data:art\cursor\resource_olive\cursor.lua'
+(I) [14:24:02.652] [000021424]: Loading step: [Presentation App]
+(I) [14:24:02.652] [000021424]: Loading step: [Presentation Static App]
+(I) [14:24:02.652] [000021424]: Loading step: [DestinationFormationManager]
+(I) [14:24:02.652] [000021424]: Loading step: [Campaign Manager]
+(I) [14:24:02.652] [000021424]: Loading step: [Mods]
+(I) [14:24:02.652] [000021424]: Failed to load lua file 'userdata:mods_meta_data.lua'
+(I) [14:24:02.652] [000021424]: LOADING WINCONDITION: data:scar\winconditions\chaotic_climate_mode.bin
+(I) [14:24:02.653] [000021424]: LOADING WINCONDITION: data:scar\winconditions\chart_a_course_mode.bin
+(I) [14:24:02.653] [000021424]: LOADING WINCONDITION: data:scar\winconditions\combat_mode.bin
+(I) [14:24:02.653] [000021424]: LOADING WINCONDITION: data:scar\winconditions\empirewars.bin
+(I) [14:24:02.653] [000021424]: LOADING WINCONDITION: data:scar\winconditions\full_moon_mode.bin
+(I) [14:24:02.653] [000021424]: LOADING WINCONDITION: data:scar\winconditions\king_of_the_hill_mode.bin
+(I) [14:24:02.654] [000021424]: LOADING WINCONDITION: data:scar\winconditions\map_monsters_mode.bin
+(I) [14:24:02.654] [000021424]: LOADING WINCONDITION: data:scar\winconditions\nomad.bin
+(I) [14:24:02.654] [000021424]: LOADING WINCONDITION: data:scar\winconditions\none.bin
+(I) [14:24:02.654] [000021424]: LOADING WINCONDITION: data:scar\winconditions\rogue_mode.bin
+(I) [14:24:02.655] [000021424]: LOADING WINCONDITION: data:scar\winconditions\sandbox.bin
+(I) [14:24:02.655] [000021424]: LOADING WINCONDITION: data:scar\winconditions\scenario.bin
+(I) [14:24:02.655] [000021424]: LOADING WINCONDITION: data:scar\winconditions\seasons_feast_mode.bin
+(I) [14:24:02.655] [000021424]: LOADING WINCONDITION: data:scar\winconditions\standard_mode.bin
+(I) [14:24:02.673] [000021424]: SCENARIO -- Failed to open stream for Scenario 'data:scenarios\campaign\mongol\mon_base_xiangyang\mon_base_xiangyang.info'.
+(I) [14:24:02.699] [000021424]: Loading step: [Item Manager]
+(I) [14:24:02.699] [000021424]: Loading step: [Loadout Manager]
+(I) [14:24:02.699] [000021424]: Loading step: [Chat Manager]
+(I) [14:24:02.699] [000021424]: Loading step: [Squad Command Processor Types]
+(I) [14:24:02.699] [000021424]: Loading step: [Squad Command Processor Types from Games]
+(I) [14:24:02.699] [000021424]: Loading step: [IEngineInitializable]
+(I) [14:24:03.094] [000021424]: GameObjLoader 0x000001AC3A97EC30 - resetting counters
+(I) [14:24:03.094] [000021424]: GameObjLoader 0x000001AC3A97EB70 - resetting counters
+(I) [14:24:03.094] [000021424]: GameObjLoader 0x000001AC464120F0 - resetting counters
+(I) [14:24:03.094] [000021424]: CRC & Version Info: exe 0x00001d15:data 0x49a92d92:flags 0
+(I) [14:24:06.766] [000021424]: Requesting ticket
+(I) [14:24:06.803] [000007584]: Enumerating Graphics Adapters
+(I) [14:24:06.805] [000007584]: Choosing first adapter
+(I) [14:24:06.805] [000007584]: Adapter: NVIDIA GeForce RTX 3060 Laptop GPU video dedicated: 6285164544 shared: 17113470976 system dedicated: 0
+(I) [14:24:06.830] [000007584]: Checking against Adapter: Intel(R) UHD Graphics video dedicated: 134217728 shared: 17113470976 system dedicated: 0
+(I) [14:24:06.830] [000007584]: Adapter ignored, we already have a good dedicated, and this one doesn't have better dedicated memory
+(I) [14:24:06.838] [000007584]: Checking against Adapter: Microsoft Basic Render Driver video dedicated: 0 shared: 17113470976 system dedicated: 0
+(I) [14:24:06.838] [000007584]: Adapter ignored, we already have a good dedicated, and this one doesn't have better dedicated memory
+(I) [14:24:06.838] [000007584]: Chosen adapter: NVIDIA GeForce RTX 3060 Laptop GPU video dedicated: 6285164544 shared: 17113470976 system dedicated: 0
+(I) [14:24:07.347] [000021424]: LOADING WINCONDITION: data:scar\winconditions\chaotic_climate_mode.bin
+(I) [14:24:07.347] [000021424]: LOADING WINCONDITION: data:scar\winconditions\chart_a_course_mode.bin
+(I) [14:24:07.347] [000021424]: LOADING WINCONDITION: data:scar\winconditions\combat_mode.bin
+(I) [14:24:07.347] [000021424]: LOADING WINCONDITION: data:scar\winconditions\empirewars.bin
+(I) [14:24:07.347] [000021424]: LOADING WINCONDITION: data:scar\winconditions\full_moon_mode.bin
+(I) [14:24:07.347] [000021424]: LOADING WINCONDITION: data:scar\winconditions\king_of_the_hill_mode.bin
+(I) [14:24:07.347] [000021424]: LOADING WINCONDITION: data:scar\winconditions\map_monsters_mode.bin
+(I) [14:24:07.348] [000021424]: LOADING WINCONDITION: data:scar\winconditions\nomad.bin
+(I) [14:24:07.348] [000021424]: LOADING WINCONDITION: data:scar\winconditions\none.bin
+(I) [14:24:07.348] [000021424]: LOADING WINCONDITION: data:scar\winconditions\rogue_mode.bin
+(I) [14:24:07.349] [000021424]: LOADING WINCONDITION: data:scar\winconditions\sandbox.bin
+(I) [14:24:07.349] [000021424]: LOADING WINCONDITION: data:scar\winconditions\scenario.bin
+(I) [14:24:07.349] [000021424]: LOADING WINCONDITION: data:scar\winconditions\seasons_feast_mode.bin
+(I) [14:24:07.349] [000021424]: LOADING WINCONDITION: data:scar\winconditions\standard_mode.bin
+(I) [14:24:07.350] [000021424]: OnRequest app ticket returned N
+(I) [14:24:07.350] [000021424]: SteamAuth received ticket at t=21269528
+(I) [14:24:07.366] [000021424]: UI Async loading data:ui\intro\pages\IntroVideoPage.xaml
+(I) [14:24:10.329] [000021424]: Found 1 profiles for account /steam/76561198821767658
+(I) [14:24:10.329] [000021424]: Found profile: /steam/76561198821767658
+(I) [14:24:10.329] [000021424]: Client is using WebSockets to receive updates from the server
+(I) [14:24:10.330] [000021424]: Login attempt: C00T01R00X-01 52656C6900B6
+(I) [14:24:10.354] [000000440]: WebSocketConnection::Process: Creating a websocket connection; host=dr-activerelease1-api.worldsedgelink.com port=443
+(I) [14:24:10.354] [000021424]: System was measured to be capable of copying [10376] MB/sec.
+(I) [14:24:10.368] [000021424]: LOADING WINCONDITION: data:scar\winconditions\chaotic_climate_mode.bin
+(I) [14:24:10.368] [000021424]: LOADING WINCONDITION: data:scar\winconditions\chart_a_course_mode.bin
+(I) [14:24:10.368] [000021424]: LOADING WINCONDITION: data:scar\winconditions\combat_mode.bin
+(I) [14:24:10.368] [000021424]: LOADING WINCONDITION: data:scar\winconditions\empirewars.bin
+(I) [14:24:10.368] [000021424]: LOADING WINCONDITION: data:scar\winconditions\full_moon_mode.bin
+(I) [14:24:10.368] [000021424]: LOADING WINCONDITION: data:scar\winconditions\king_of_the_hill_mode.bin
+(I) [14:24:10.368] [000021424]: LOADING WINCONDITION: data:scar\winconditions\map_monsters_mode.bin
+(I) [14:24:10.368] [000021424]: LOADING WINCONDITION: data:scar\winconditions\nomad.bin
+(I) [14:24:10.368] [000021424]: LOADING WINCONDITION: data:scar\winconditions\none.bin
+(I) [14:24:10.368] [000021424]: LOADING WINCONDITION: data:scar\winconditions\rogue_mode.bin
+(I) [14:24:10.368] [000021424]: LOADING WINCONDITION: data:scar\winconditions\sandbox.bin
+(I) [14:24:10.368] [000021424]: LOADING WINCONDITION: data:scar\winconditions\scenario.bin
+(I) [14:24:10.368] [000021424]: LOADING WINCONDITION: data:scar\winconditions\seasons_feast_mode.bin
+(I) [14:24:10.368] [000021424]: LOADING WINCONDITION: data:scar\winconditions\standard_mode.bin
+(I) [14:24:11.057] [000021424]: UI Async loading data:ui\intro\pages\connectingandgenericloadingpage.xaml
+(I) [14:24:11.094] [000021424]: [PlayfabManager] : Playfab Login Succeeded
+(I) [14:24:11.716] [000000440]: WebSocketConnection::OnConnect; m_resumeState=0
+(I) [14:24:11.716] [000000440]: WebSocketConnection::Process: Sending session token; clientLibVersion=191 sessionToken=8u6n2fm0isbrdhush6mcu772suuuyi
+(E) [14:24:12.950] [000021424]: Enum changed on the server CommunityEventContent::EventContentType
+(E) [14:24:12.950] [000021424]: Enum changed on the server CommunityEventContent::EventContentType
+(E) [14:24:12.950] [000021424]: Enum changed on the server CommunityEventContent::EventContentType
+(E) [14:24:12.950] [000021424]: Enum changed on the server CommunityEventContent::EventContentType
+(E) [14:24:12.950] [000021424]: Enum changed on the server CommunityEventContent::EventContentType
+(E) [14:24:12.950] [000021424]: Enum changed on the server CommunityEventContent::EventContentType
+(E) [14:24:12.950] [000021424]: Enum changed on the server CommunityEventContent::EventContentType
+(E) [14:24:12.950] [000021424]: Enum changed on the server CommunityEventContent::EventContentType
+(E) [14:24:12.950] [000021424]: Enum changed on the server CommunityEventContent::EventContentType
+(E) [14:24:12.950] [000021424]: Enum changed on the server CommunityEventContent::EventContentType
+(E) [14:24:12.950] [000021424]: Enum changed on the server CommunityEventContent::EventContentType
+(E) [14:24:12.950] [000021424]: Enum changed on the server CommunityEventContent::EventContentType
+(E) [14:24:12.950] [000021424]: Enum changed on the server CommunityEventContent::EventContentType
+(E) [14:24:12.950] [000021424]: Enum changed on the server CommunityEventContent::EventContentType
+(E) [14:24:12.950] [000021424]: Enum changed on the server CommunityEventContent::EventContentType
+(E) [14:24:12.950] [000021424]: Enum changed on the server CommunityEventContent::EventContentType
+(E) [14:24:12.950] [000021424]: Enum changed on the server CommunityEventContent::EventContentType
+(E) [14:24:12.950] [000021424]: Enum changed on the server CommunityEventContent::EventContentType
+(E) [14:24:12.950] [000021424]: Enum changed on the server CommunityEventContent::EventContentType
+(E) [14:24:12.950] [000021424]: Enum changed on the server CommunityEventContent::EventContentType
+(E) [14:24:12.950] [000021424]: Enum changed on the server CommunityEventContent::EventContentType
+(E) [14:24:12.950] [000021424]: Enum changed on the server CommunityEventContent::EventContentType
+(E) [14:24:12.950] [000021424]: Enum changed on the server CommunityEventContent::EventContentType
+(E) [14:24:12.950] [000021424]: Enum changed on the server CommunityEventContent::EventContentType
+(E) [14:24:12.950] [000021424]: Enum changed on the server CommunityEventContent::EventContentType
+(E) [14:24:12.950] [000021424]: Enum changed on the server CommunityEventContent::EventContentType
+(E) [14:24:12.950] [000021424]: Enum changed on the server CommunityEventContent::EventContentType
+(E) [14:24:12.950] [000021424]: Enum changed on the server CommunityEventContent::EventContentType
+(E) [14:24:12.950] [000021424]: Enum changed on the server CommunityEventContent::EventContentType
+(E) [14:24:12.950] [000021424]: Enum changed on the server CommunityEventContent::EventContentType
+(I) [14:24:13.000] [000000440]: WebSocketConnection::ProcessMessages: message=[0,"PresenceMessage",23876554,[[116,23876554,"/steam/76561198821767658","{\"sharedHistory\":1,\"hardwareType\":0,\"inputDeviceType\":0}","Uncle Bobby B","Uncle Bobby B","",9985334,5000,10,2074437,null,"76561198821767658",3,[],1,"Online",[[1409823,"-4"]]]]]
+(I) [14:24:13.000] [000000440]: WebSocketConnection::ProcessMessages: message=[0,"ChallengeUpdatedMessage",23876554,[[2004558199,1425463,0,0,1767916800,null,1767853450],1]]
+(I) [14:24:13.000] [000000440]: WebSocketConnection::ProcessMessages: message=[0,"ChallengeUpdatedMessage",23876554,[[2004558200,1472567,0,0,1767916800,null,1767853450],1]]
+(I) [14:24:13.000] [000000440]: WebSocketConnection::ProcessMessages: message=[0,"ChallengeUpdatedMessage",23876554,[[1983778367,1472482,2,0,1767398400,null,1767324185],0]]
+(I) [14:24:13.000] [000000440]: WebSocketConnection::ProcessMessages: message=[0,"ChallengeUpdatedMessage",23876554,[[1993511114,1424841,2,0,1767398400,null,1767324185],0]]
+(I) [14:24:13.000] [000000440]: WebSocketConnection::ProcessMessages: message=[0,"ChallengeUpdatedMessage",23876554,[[1979534673,1428841,0,0,1767916800,null,1767853450],0]]
+(I) [14:24:13.000] [000000440]: WebSocketConnection::ProcessMessages: message=[0,"ChallengeUpdatedMessage",23876554,[[1993511112,1425217,2,0,1767398400,null,1767324185],0]]
+(I) [14:24:13.000] [000000440]: WebSocketConnection::ProcessMessages: message=[0,"ChallengeUpdatedMessage",23876554,[[1993511113,1425215,2,0,1767398400,null,1767324185],0]]
+(I) [14:24:13.000] [000000440]: WebSocketConnection::ProcessMessages: message=[0,"ChallengeUpdatedMessage",23876554,[[1985398717,1426258,0,0,1767916800,null,1767853450],0]]
+(I) [14:24:13.000] [000000440]: WebSocketConnection::ProcessMessages: message=[0,"ChallengeUpdatedMessage",23876554,[[1987798341,1428832,0,0,1767916800,null,1767853450],0]]
+(I) [14:24:15.481] [000021424]: FILESYSTEM -- filepath failure, missing alias 'peruserdata:savedShoppingCart.sav'
+(I) [14:24:15.481] [000021424]: FILESYSTEM -- filepath failure, missing alias 'peruserdata:savedShoppingCart.sav'
+(I) [14:24:21.225] [000021424]: Crucible progress loaded : online
+(I) [14:24:21.321] [000021424]: UI Async loading data:ui\Lobby\Widgets\TaskBarWidget.xaml
+(I) [14:24:21.321] [000021424]: UI Async loading data:ui\lobby\widgets\notificationwidget.xaml
+(I) [14:24:21.321] [000021424]: UI Async loading data:ui\Lobby\Pages\FEBackgroundPage.xaml
+(I) [14:24:21.332] [000021424]: [SAVE_GAME] FrontEndTask_SaveDataStore::OnBegin saving to slot DataStore
+(I) [14:24:21.333] [000021424]: [SAVE_GAME] FrontEndTask_SaveDataStore::OnBegin saving to slot DataStore
+(I) [14:24:21.384] [000021424]: UI Async loading data:ui\lobby\modalpages\NewsItemModalPage.xaml
+(I) [14:24:21.434] [000021424]: UI Async loading data:ui\Lobby\Pages\MainMenuPage.xaml
+(I) [14:24:21.564] [000021424]: UI Async loading data:ui\Lobby\Pages\MainMenuPageHomePane.xaml
+(I) [14:24:25.584] [000021424]: UI Async loading data:ui\shared\modalpages\SettingsModalPage.xaml
+(I) [14:24:25.594] [000021424]: UI Async loading data:ui\shared\modalpages\SettingsModalPageControlsPane.xaml
+(I) [14:24:25.606] [000021424]: UI Async loading data:ui\shared\modalpages\HotKeyRemapModalPage.xaml
+(I) [14:24:25.684] [000021424]: UI Async loading data:ui\shared\modalpages\HotKeyRemapCommonKeysTabPage.xaml
+(I) [14:24:26.813] [000021424]: UI Async loading data:ui\shared\modalpages\SystemConfigGenericPane.xaml
+(I) [14:24:27.119] [000021424]: UI Async loading data:ui\shared\modalpages\SystemConfigGenericPane.xaml
+(I) [14:24:27.619] [000021424]: UI Async loading data:ui\shared\modalpages\SystemConfigGenericPane.xaml
+(I) [14:24:29.534] [000021424]: GetPartyStatsByID found 1 teams for user ID 23876554
+(I) [14:24:32.594] [000021424]: [SAVE_GAME] CardinalSystemConfigModel::CompleteApplyCommandOverride saving to slot DataStore
+(I) [14:24:33.676] [000021424]: UI Async loading data:ui\Lobby\Pages\SinglePlayerPage.xaml
+(I) [14:24:33.693] [000021424]: UI Async loading data:ui\Lobby\Pages\SinglePlayerPageCampaignPane.xaml
+(I) [14:24:35.201] [000021424]: UI Async loading data:ui\Lobby\Pages\SinglePlayerPageSkirmishPane.xaml
+(I) [14:24:36.562] [000021424]: MatchSetupManager -- Slot Override 0 cosmetics invalid or empty.
+(I) [14:24:36.562] [000021424]: MatchSetupManager -- Slot  0 loadout invalid.
+(I) [14:24:36.562] [000021424]: MatchSetupManager -- Slot Override 1 cosmetics invalid or empty.
+(I) [14:24:36.562] [000021424]: MatchSetupManager -- Slot  1 loadout invalid.
+(I) [14:24:36.562] [000021424]: MatchSetupManager -- Slot Override 2 cosmetics invalid or empty.
+(I) [14:24:36.562] [000021424]: MatchSetupManager -- Slot  2 loadout invalid.
+(I) [14:24:36.562] [000021424]: MatchSetupManager -- Slot Override 3 cosmetics invalid or empty.
+(I) [14:24:36.562] [000021424]: MatchSetupManager -- Slot  3 loadout invalid.
+(I) [14:24:36.562] [000021424]: MatchSetupManager -- Slot Override 4 cosmetics invalid or empty.
+(I) [14:24:36.562] [000021424]: MatchSetupManager -- Slot  4 loadout invalid.
+(I) [14:24:36.562] [000021424]: MatchSetupManager -- Slot Override 5 cosmetics invalid or empty.
+(I) [14:24:36.562] [000021424]: MatchSetupManager -- Slot  5 loadout invalid.
+(I) [14:24:36.562] [000021424]: MatchSetupManager -- RACE for slot 6 was INVALID, assigning arbitrary race and faction.
+(I) [14:24:36.562] [000021424]: MatchSetupManager -- RACE for slot 7 was INVALID, assigning arbitrary race and faction.
+(I) [14:24:36.562] [000021424]: MatchSetupManager -- Slot 8 config invalid, setting slot to open.
+(I) [14:24:36.562] [000021424]: MatchSetupManager -- Slot  8 metadata invalid or empty.
+(I) [14:24:36.562] [000021424]: MatchSetupManager -- RACE for slot 8 was INVALID, assigning arbitrary race and faction.
+(I) [14:24:36.562] [000021424]: MatchSetupManager -- Slot 9 config invalid, setting slot to open.
+(I) [14:24:36.562] [000021424]: MatchSetupManager -- Slot  9 metadata invalid or empty.
+(I) [14:24:36.562] [000021424]: MatchSetupManager -- RACE for slot 9 was INVALID, assigning arbitrary race and faction.
+(I) [14:24:36.562] [000021424]: MatchSetupManager -- Slot 10 config invalid, setting slot to open.
+(I) [14:24:36.562] [000021424]: MatchSetupManager -- Slot  10 metadata invalid or empty.
+(I) [14:24:36.562] [000021424]: MatchSetupManager -- RACE for slot 10 was INVALID, assigning arbitrary race and faction.
+(I) [14:24:36.562] [000021424]: MatchSetupManager -- Slot 11 config invalid, setting slot to open.
+(I) [14:24:36.562] [000021424]: MatchSetupManager -- Slot  11 metadata invalid or empty.
+(I) [14:24:36.562] [000021424]: MatchSetupManager -- RACE for slot 11 was INVALID, assigning arbitrary race and faction.
+(I) [14:24:36.562] [000021424]: MatchSetupManager -- Slot 12 config invalid, setting slot to open.
+(I) [14:24:36.562] [000021424]: MatchSetupManager -- Slot  12 metadata invalid or empty.
+(I) [14:24:36.562] [000021424]: MatchSetupManager -- RACE for slot 12 was INVALID, assigning arbitrary race and faction.
+(I) [14:24:36.562] [000021424]: MatchSetupManager -- Slot 13 config invalid, setting slot to open.
+(I) [14:24:36.562] [000021424]: MatchSetupManager -- Slot  13 metadata invalid or empty.
+(I) [14:24:36.562] [000021424]: MatchSetupManager -- RACE for slot 13 was INVALID, assigning arbitrary race and faction.
+(I) [14:24:36.562] [000021424]: MatchSetupManager -- Slot 14 config invalid, setting slot to open.
+(I) [14:24:36.562] [000021424]: MatchSetupManager -- Slot  14 metadata invalid or empty.
+(I) [14:24:36.562] [000021424]: MatchSetupManager -- RACE for slot 14 was INVALID, assigning arbitrary race and faction.
+(I) [14:24:36.562] [000021424]: MatchSetupManager -- Slot 15 config invalid, setting slot to open.
+(I) [14:24:36.562] [000021424]: MatchSetupManager -- Slot  15 metadata invalid or empty.
+(I) [14:24:36.562] [000021424]: MatchSetupManager -- RACE for slot 15 was INVALID, assigning arbitrary race and faction.
+(I) [14:24:36.889] [000021424]: UI Async loading data:ui\lobby\dialogs\CreatingMatchDialogPage.xaml
+(I) [14:24:36.929] [000021424]: starting offline hosting
+(I) [14:24:37.009] [000021424]: OnlineHostAsync success
+(I) [14:24:37.009] [000021424]: Created Matchinfo for sessionID 18446744073709551614
+(I) [14:24:37.009] [000021424]: OnJoinAdvertisementSuccess - joined online match, server leave notification required
+(I) [14:24:37.009] [000021424]: starting local hosting
+(I) [14:24:37.009] [000021424]: ValidateCustomData: called with 2821 bytes of custom data
+(I) [14:24:37.009] [000021424]: WorldwideAdvertisementService::Process - EVENT_NEWPEER
+(I) [14:24:37.023] [000003204]: MessageCounts: inval=0/0, seek=0/0, join=0/0, ichk=0/0, sk_r=0/0, deny=0/0, Padd=0/0, Pdel=0/0, drop=0/0, data=0/0, mdat=0/0, voip=0/0, rchk=0/0, nudg=0/0, Thdr=0/0, Peer=0/0, PPrx=0/0, ping=0/0, Pfrg=0/0, rely=0/0, lb_p=0/0, lb_c=0/0, cast=0/0, cdat=0/0, sorq1=0/0, sorp=0/0, acto=0/0, spob=0/0, sorq2=0/0, setp=0/0, actr=0/0, lsim=0/0, rlbc=0/0, rlbc2=0/0, endg=0/0
+(I) [14:24:37.044] [000021424]: Sending matchinfo change #2
+(I) [14:24:37.044] [000021424]: HostAsync - got operation info 0:SessionOperationInfo::SUCCESS
+(I) [14:24:37.078] [000021424]: hosting - Session is connected
+(I) [14:24:37.152] [000021424]: HostAsync - completed with HostResult = 0
+(I) [14:24:37.152] [000021424]: WorldwidePartyService::SetMatchState - state 0 unchanged ignoring
+(I) [14:24:37.153] [000021424]: WorldwideAutomatchService::OnHostComplete - automatcher is no longer active - stopPollPending 0 automatchPollID 18446744073709551615
+(I) [14:24:37.164] [000021424]: UI Async loading data:ui\lobby\semimodalpages\CreateCustomMatchSemiModalPage.xaml
+(I) [14:24:37.187] [000021424]: Sending matchinfo change #16
+(I) [14:24:37.320] [000021424]: Sending matchinfo change #26
+(I) [14:24:38.033] [000000440]: WebSocketConnection::ProcessMessages: message=[0,"PresenceMessage",23876554,[[117,23876554,"/steam/76561198821767658","{\"sharedHistory\":1,\"hardwareType\":0,\"inputDeviceType\":0}","Uncle Bobby B","Uncle Bobby B","",9985334,5000,10,2074437,null,"76561198821767658",3,[],2,"Online",[[1409823,"-4"]]]]]
+(I) [14:25:18.369] [000021424]: Sending matchinfo change #27
+(I) [14:25:23.026] [000000440]: WebSocketConnection::ProcessMessages: message=[0,"PresenceMessage",23876554,[[118,23876554,"/steam/76561198821767658","{\"sharedHistory\":1,\"hardwareType\":0,\"inputDeviceType\":0}","Uncle Bobby B","Uncle Bobby B","",9985334,5000,10,2074437,null,"76561198821767658",3,[],1409817,"In Lobby",[[1409823,"-2"]]]]]
+(I) [14:25:38.004] [000003204]: MessageCounts: inval=0/0, seek=0/0, join=0/0, ichk=0/0, sk_r=0/0, deny=0/0, Padd=0/0, Pdel=0/0, drop=0/0, data=0/0, mdat=0/0, voip=0/0, rchk=0/0, nudg=0/0, Thdr=0/0, Peer=0/0, PPrx=0/0, ping=0/0, Pfrg=0/0, rely=0/0, lb_p=0/0, lb_c=0/0, cast=0/0, cdat=0/0, sorq1=0/0, sorp=0/0, acto=0/0, spob=0/0, sorq2=0/0, setp=0/0, actr=0/0, lsim=0/0, rlbc=0/0, rlbc2=0/0, endg=0/0
+(I) [14:25:54.029] [000021424]: SessionID : fffffffffffffffe - Disconnect called with reasonID 1000 - Relic::Game::MatchSetup::Destroy> m_matchStatus : 1 >> MatchSetup::Disconnect >
+(E) [14:25:54.033] [000023688]: SetObservable called while !IsConnected
+(E) [14:25:54.040] [000021424]: SteamLobbyList::RemoveLobby: Attempt to remove nonexistent lobby; sessionId=-2
+(I) [14:25:54.040] [000021424]: SessionID : fffffffffffffffe - Disconnect called with reasonID 1000 - Relic::Game::MatchSetup::~MatchSetup> MatchSetup::Disconnect >
+(E) [14:25:54.188] [000021424]: SetVisible called while !IsConnected
+(I) [14:25:54.188] [000021424]: Disconnect process already running
+(I) [14:25:54.223] [000021424]: WorldwideAdvertisementService::Process - EVENT_DESTROYPEER
+(I) [14:25:54.223] [000021424]: WorldwidePartyService::PeerRemove, Removing peer ID: 1
+(I) [14:25:54.223] [000021424]: peerremove - peerIDRemoved=23876554, reasonID=1000, reason debug hint - Relic::Game::MatchSetup::Destroy> m_matchStatus : 1 >> MatchSetup::Disconnect >
+(I) [14:25:54.260] [000021424]: PeerRemoveAll - flushing local session peer data
+(I) [14:25:54.260] [000021424]: LeaveSessionInternal - no action taken, needLeave=0, service=2
+(I) [14:25:54.260] [000021424]: Destroyed Matchinfo for sessionID -2
+(I) [14:25:54.260] [000021424]: OnDestroyPartyNotification - partyID = -2, prevID = -1
+(I) [14:25:54.260] [000021424]: OnDestroyPartyNotification - partyID = -2, prevID = -1
+(E) [14:25:54.294] [000021424]: SteamLobbyList::RemoveLobby: Attempt to remove nonexistent lobby; sessionId=-2
+(I) [14:25:54.408] [000021424]: UI Async loading data:ui\Lobby\Pages\MainMenuPage.xaml
+(I) [14:25:54.434] [000021424]: UI Async loading data:ui\Lobby\Pages\MainMenuPageHomePane.xaml
+(I) [14:25:55.898] [000021424]: UI Async loading data:ui\shared\modalpages\UserPromptModalPage.xaml
+(I) [14:25:56.642] [000021424]: [GameApp] Requesting game quit with reason: Prompt Quit App
+(I) [14:25:56.816] [000021424]: Unloading step: [IEngineInitializable]
+(I) [14:25:56.816] [000021424]: Unloading step: [Squad Command Processor Types from Games]
+(I) [14:25:56.816] [000021424]: Unloading step: [Squad Command Processor Types]
+(I) [14:25:56.816] [000021424]: Unloading step: [Chat Manager]
+(I) [14:25:56.816] [000021424]: Unloading step: [Loadout Manager]
+(I) [14:25:56.816] [000021424]: Unloading step: [Item Manager]
+(I) [14:25:56.816] [000021424]: Unloading step: [Mods]
+(I) [14:25:56.940] [000021424]: Unloading step: [Campaign Manager]
+(I) [14:25:56.940] [000021424]: Unloading step: [DestinationFormationManager]
+(I) [14:25:56.940] [000021424]: Unloading step: [Presentation Static App]
+(I) [14:25:56.941] [000021424]: Unloading step: [Presentation App]
+(I) [14:25:56.942] [000021424]: Unloading step: [Cancel Pending Soundbank Loads]
+(I) [14:25:56.942] [000021424]: Unloading step: [Unload inventory]
+(I) [14:25:56.942] [000021424]: Unloading step: [Purge BackgroundLoader]
+(I) [14:25:56.942] [000021424]: Unloading step: [Flush Inventory]
+(I) [14:25:56.944] [000021424]: Unloading step: [Movie Manager]
+(I) [14:25:56.944] [000021424]: Unloading step: [Debug Console]
+(I) [14:25:56.944] [000021424]: Unloading step: [Statgraph]
+(I) [14:25:56.944] [000021424]: Unloading step: [Fonts]
+(I) [14:25:56.944] [000021424]: Unloading step: [Sound]
+(I) [14:25:56.944] [000021424]: WWise Terminating
+(I) [14:25:56.944] [000021424]: Terminating SoundEngine
+(I) [14:25:56.986] [000021424]: Terminating Streaming Manager
+(I) [14:25:56.986] [000021424]: Terminating Memory Manager
+(I) [14:25:56.990] [000021424]: Unloading step: [Debug Render]
+(I) [14:25:56.990] [000021424]: Unloading step: [Render Anim]
+(I) [14:25:56.990] [000021424]: Unloading step: [ShadowManager]
+(I) [14:25:56.990] [000021424]: Unloading step: [IntersectUtil]
+(I) [14:25:56.990] [000021424]: Unloading step: [SetMaterialOverrideCommandFunction]
+(I) [14:25:56.990] [000021424]: Unloading step: [SetShaderVariableCommandFunction]
+(I) [14:25:56.990] [000021424]: Unloading step: [TeamColourCommandFunction]
+(I) [14:25:56.990] [000021424]: Unloading step: [ActionCommandFunction]
+(I) [14:25:56.990] [000021424]: Unloading step: [Loaders]
+(I) [14:25:56.990] [000021424]: Unloading step: [TextureManager]
+(I) [14:25:56.990] [000021424]: Unloading step: [ITextureUtil]
+(I) [14:25:56.990] [000021424]: Unloading step: [Hotswapping]
+(I) [14:25:56.990] [000021424]: Unloading step: [Alias]
+(I) [14:25:56.990] [000021424]: Unloading step: [Havok]
+(I) [14:25:57.004] [000021424]: Unloading step: [Cursor]
+(I) [14:25:57.004] [000021424]: Unloading step: [Init Screen Background]
+(I) [14:25:57.004] [000007584]: Unregistered essence thread: [Render_Thread]
+(I) [14:25:57.493] [000022980]: Unregistered essence thread: [Simulation_Thread]
+(I) [14:25:57.494] [000021424]: Unregistered essence thread: [Main_Thread]
+(I) [14:25:57.494] [000021424]: Unloading step: [App Init Complete]
+(I) [14:25:57.494] [000021424]: Unloading step: [dbImGui]
+(I) [14:25:57.494] [000021424]: Unloading step: [User Data Shutdown]
+(I) [14:25:57.503] [000021424]: Unloading step: [Game Modules Init]
+(I) [14:25:57.503] [000021424]: Unloading step: [Game Hooks]
+(I) [14:25:57.503] [000021424]: Unloading step: [AI subsystem]
+(I) [14:25:57.503] [000021424]: Unloading step: [Graphics driver check]
+(I) [14:25:57.503] [000021424]: Unloading step: [ModManager (RR deferred)]
+(I) [14:25:57.504] [000021424]: Unloading step: [Autodetect Settings]
+(I) [14:25:57.509] [000021424]: Unloading step: [Inventory]
+(I) [14:25:57.510] [000021424]: Unloading step: [InitComponentFactory]
+(I) [14:25:57.510] [000021424]: Unloading step: [InitThreadingModel]
+(I) [14:25:57.512] [000021424]: Threading system shutdown
+(I) [14:25:57.512] [000021424]: Unloading step: [InitGameActivator]
+(I) [14:25:57.512] [000021424]: Unloading step: [Command DB]
+(I) [14:25:57.512] [000021424]: Unloading step: [System Tests]
+(I) [14:25:57.512] [000021424]: Unloading step: [Lua Tools]
+(I) [14:25:57.512] [000021424]: Unloading step: [Lua Libraries]
+(I) [14:25:57.512] [000021424]: Unloading step: [Telemetry]
+(I) [14:25:58.155] [000021424]: Unloading step: [CrossplaySettingListener]
+(I) [14:25:58.155] [000021424]: Unloading step: [NetworkGlobal]
+(I) [14:25:58.159] [000021424]: call to FlushJobs
+(I) [14:25:58.757] [000021424]: call to FlushJobs
+(I) [14:25:59.590] [000021424]: Beginning call to ~NetworkManagerInternal
+(I) [14:25:59.590] [000021424]: ~NetworkManagerInternal is about to join threads
+(I) [14:25:59.654] [000021424]: We have reached the end of ~NetworkManagerInternal
+(E) [14:25:59.671] [000021424]: Socks::Free: Socket 0/5016 did not close properly before being freed.
+(I) [14:25:59.679] [000021424]: Automatch2Internal: Fade to black
+(I) [14:25:59.679] [000021424]: AutomatchInternal: Fade to black
+(I) [14:25:59.694] [000021424]: Unloading step: [Parental Control]
+(I) [14:25:59.694] [000021424]: Unloading step: [Free RAM Check]
+(I) [14:25:59.694] [000021424]: Unloading step: [Running in compatibility mode check]
+(I) [14:25:59.694] [000021424]: Unloading step: [Multicore Check]
+(I) [14:25:59.694] [000021424]: Unloading step: [Compatible OS Check]
+(I) [14:25:59.694] [000021424]: Unloading step: [Compatible Architecture Check]
+(I) [14:25:59.694] [000021424]: Unloading step: [Locale System]
+(I) [14:25:59.694] [000021424]: Unloading step: [FilePath Filter]
+(I) [14:25:59.694] [000021424]: Unloading step: [ModManager]
+(I) [14:25:59.694] [000021424]: Unloading step: [ModDllSetup]
+(I) [14:25:59.694] [000021424]: Unloading step: [ModPackManager]
+(I) [14:25:59.694] [000021424]: Unloading step: [Game]
+(I) [14:25:59.694] [000021424]: Unloading step: [ReflectPostExternalSystemsInited]
+(I) [14:25:59.694] [000021424]: Unloading step: [EntityBlueprintManager]
+(I) [14:25:59.694] [000021424]: Unloading step: [HandleIndex Manager]
+(I) [14:25:59.694] [000021424]: Unloading step: [Modifier Callbacks Initialize]
+(I) [14:25:59.694] [000021424]: Unloading step: [PBG PostLoad]
+(I) [14:25:59.694] [000021424]: Unloading step: [Sim State Tree Manager]
+(I) [14:25:59.739] [000021424]: Unloading step: [Property Bag Manager]
+(I) [14:25:59.951] [000021424]: Unloading step: [Sound - Rtpc Event Database Init]
+(I) [14:25:59.951] [000021424]: Unloading step: [Property Bag Registration]
+(I) [14:25:59.952] [000021424]: Unloading step: [SimApp]
+(I) [14:25:59.952] [000021424]: Unloading step: [Initialize Resource Types]
+(I) [14:25:59.952] [000021424]: Unloading step: [Family Manager]
+(I) [14:25:59.952] [000021424]: Unloading step: [SimStaticApp]
+(I) [14:25:59.953] [000021424]: Unloading step: [Localization]
+(I) [14:25:59.953] [000021424]: Unloading step: [GameModule Pre Mod Interface Init]
+(I) [14:25:59.953] [000021424]: Unloading step: [Prerequisite Entries]
+(I) [14:25:59.953] [000021424]: Unloading step: [Prerequisite Manager]
+(I) [14:25:59.954] [000021424]: Unloading step: [InitStateTreeManager]
+(I) [14:25:59.954] [000021424]: Unloading step: [InitReflectSystem]
+(I) [14:25:59.992] [000021424]: Unloading step: [MemoryEnvironment]
+(I) [14:25:59.994] [000021424]: Unloading step: [Load Debug Symbols]
+(I) [14:25:59.994] [000021424]: Unloading step: [Warnings]
+(I) [14:25:59.994] [000021424]: Unloading step: [Load/Save Config Settings]
+(I) [14:25:59.997] [000021424]: Unloading step: [User Folder Unloader]
+(I) [14:25:59.997] [000021424]: Unloading step: [System Config]
+(I) [14:25:59.997] [000021424]: Unloading step: [Lua Libraries]
+(I) [14:25:59.997] [000021424]: Unloading step: [Lua GameBinding Traits]
+(I) [14:25:59.997] [000021424]: Unloading step: [FileLogger]
+(I) [14:25:59.997] [000021424]: Unloading step: [Load Scheduler]
+(I) [14:25:59.997] [000021424]: Unloading step: [Place Debug Session File]
+(I) [14:25:59.997] [000021424]: Unloading step: [Filesystem]
+(I) [14:25:59.997] [000021424]: FILESYSTEM -- filepath failed to remove alias, missing alias 'stats'
+(I) [14:25:59.997] [000021424]: Unloading step: [IOThrottler]
+(I) [14:25:59.997] [000021424]: Unloading step: [ArchiveManager]
+(I) [14:25:59.997] [000021424]: Unloading step: [MathBox]
+(I) [14:25:59.997] [000021424]: Unloading step: [StatGraph Stats]
+(I) [14:25:59.997] [000021424]: Unloading step: [Statgraph]
+(I) [14:25:59.997] [000021424]: Unloading step: [Render Window]
+(I) [14:25:59.997] [000021424]: Unloading step: [Config File]
+(I) [14:25:59.999] [000021424]: Unloading step: [Async IO Queue]
+(I) [14:25:59.999] [000021424]: Unloading step: [Single Instance Check]
+(I) [14:25:59.999] [000021424]: Unloading step: [Early Free RAM Check]
+(I) [14:25:59.999] [000021424]: Unloading step: [Platform]
+
+Application closed without errors

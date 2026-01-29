@@ -1,0 +1,6 @@
+[22:34:17][main.cpp:1661]: [Thread 13888] Startup real time: 112051 ms
+[22:34:17][main.cpp:1666]: - start: 576 ms
+[22:34:17][main.cpp:1666]: - main task: 2665 ms
+[22:34:17][main.cpp:1666]: - create application: 36 ms
+[22:34:17][main.cpp:1666]: - init application: 108772 ms
+[22:34:17][main.cpp:1666]: - await verification: 0 ms
