@@ -72,7 +72,9 @@ UI-dependent or brittle test implementations.
 
 ## Setup and Usage
 
-### Install dependencies
+```
+
+## Install Dependencies
 
 Install all required project dependencies using npm:
 
