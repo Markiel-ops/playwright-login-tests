@@ -1,9 +1,0 @@
--- Log file for all messages not properly caught --
-
-14:24:37.153   WorldwideAutomatch2Service::OnHostComplete - we're not polling at the moment, ignoring
-14:25:58.159   NetworkManagerInternal::FlushJobs - flushing remaining (1) dynamic jobs:
-14:25:58.159   Dynamic job SetDataAsync still running
-14:25:58.757   NetworkManagerInternal waited 599 ms for async jobs to complete successfully
-14:25:58.757   NetworkManagerInternal::FlushJobs - flushing remaining (1) dynamic jobs:
-14:25:58.757   Dynamic job LogoutAsync still running
-14:25:59.590   NetworkManagerInternal waited 832 ms for async jobs to complete successfully

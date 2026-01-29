@@ -1,8 +1,0 @@
-sessionGUID = {1403c32a-497e-49e8-bd7f-e72bfc5f99e8}
-version = 15.2.7445.0
-configuration = rtm
-depot = cardinal
-stream = release_15_2_0
-launchParameters = 
-unsupportedReasons = 
-module = Quit

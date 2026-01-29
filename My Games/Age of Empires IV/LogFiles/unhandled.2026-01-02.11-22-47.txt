@@ -1,9 +1,0 @@
--- Log file for all messages not properly caught --
-
-11:56:33.168   NetworkManagerInternal::FlushJobs - flushing remaining (1) dynamic jobs:
-11:56:33.168   Dynamic job SetDataAsync still running
-11:56:33.773   NetworkManagerInternal waited 605 ms for async jobs to complete successfully
-11:56:33.773   NetworkManagerInternal::FlushJobs - flushing remaining (1) dynamic jobs:
-11:56:33.773   Dynamic job LogoutAsync still running
-11:56:35.416   NetworkManagerInternal waited 1643 ms for async jobs to complete successfully
-11:56:35.484   AsyncJobDriver::~AsyncJobDriver() - dynamically allocated job ChatChannelCache is still running
