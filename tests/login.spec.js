@@ -76,5 +76,4 @@ test.describe('Login Page - Voyadores DEV', () => {
   await expect(passwordInput).toBeVisible();
 });
 
-
 });
