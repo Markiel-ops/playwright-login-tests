@@ -12,7 +12,7 @@
     },
     {
       "name": "__RequestVerificationToken",
-      "value": "OVPrdaiwqMsZOekjwmHbecm3CqcUTD-7_mmMpFQMjV8D9UVzrOnLVxyiGPJ0NMyJ5Y-HPmdY0ixRyWkwzmn5irNoKF7kTfFej_u3y9hTido1",
+      "value": "quP3vtNRfdNQkln-vuw3Iz6QXt2oW1AEevoMrmIvKmeXMx0rCQ1rbRqd7jD8O8JQDbo2OZvy0hBGiTKcgo9XwLwKBr1UkVxxKY-FdziDGXU1",
       "domain": "dev2-login.voyadores.com",
       "path": "/",
       "expires": -1,
@@ -25,37 +25,37 @@
       "value": "Asia%2FManila%20(UTC%2B8)",
       "domain": ".voyadores.com",
       "path": "/",
-      "expires": 1801230978,
+      "expires": 1801232981,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "timezoneDate",
-      "value": "1%2F29%2F2026%2C%209%3A56%3A18%20PM",
+      "value": "1%2F29%2F2026%2C%2010%3A29%3A41%20PM",
       "domain": ".voyadores.com",
       "path": "/",
-      "expires": 1801230978,
+      "expires": 1801232981,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "_ga",
-      "value": "GA1.1.2136759549.1769694979",
+      "value": "GA1.1.1932719128.1769696981",
       "domain": ".voyadores.com",
       "path": "/",
-      "expires": 1804254978.842901,
+      "expires": 1804256981.399013,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "_ga_726XKLB2E5",
-      "value": "GS2.1.s1769694978$o1$g0$t1769694979$j59$l0$h0",
+      "value": "GS2.1.s1769696981$o1$g0$t1769696981$j60$l0$h0",
       "domain": ".voyadores.com",
       "path": "/",
-      "expires": 1804254979.021543,
+      "expires": 1804256981.451523,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
