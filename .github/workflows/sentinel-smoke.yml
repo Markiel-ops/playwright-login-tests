@@ -1,0 +1,34 @@
+name: Sentinel Smoke Tests
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  sentinel-smoke:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright browsers
+        run: npx playwright install --with-deps
+
+      - name: Run Sentinel smoke tests
+        env:
+          BASE_URL: ${{ secrets.BASE_URL }}
+          VOYA_LOGIN_URL: ${{ secrets.VOYA_LOGIN_URL }}
+          VOYA_EMAIL: ${{ secrets.VOYA_EMAIL }}
+          VOYA_PASSWORD: ${{ secrets.VOYA_PASSWORD }}
+        run: npx playwright test --grep @smoke

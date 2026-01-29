@@ -15,3 +15,7 @@ auth.json
 # OS / editor
 .vscode/
 .DS_Store
+
+# Logs
+*.log
+
