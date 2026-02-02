@@ -1,0 +1,27 @@
+  regression-tests:
+    if: github.ref == 'refs/heads/main' || github.event_name == 'schedule'
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [1/2, 2/2]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - run: npm ci
+      - run: npx playwright install --with-deps
+
+      - name: Run regression (shard ${{ matrix.shard }})
+        run: npx playwright test --shard=${{ matrix.shard }}
+
+      - name: Upload report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: regression-report-${{ matrix.shard }}
+          path: playwright-report
