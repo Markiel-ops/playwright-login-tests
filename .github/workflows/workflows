@@ -1,68 +1,27 @@
-name: Playwright CI
-
-on:
-  pull_request:
-  push:
-    branches:
-      - main
-  schedule:
-    - cron: '0 18 * * *' # nightly (2am PH time)
-
-jobs:
-  smoke-tests:
-    if: github.event_name != 'schedule'
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
-
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: 18
-
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Install Playwright browsers
-        run: npx playwright install --with-deps
-
-      - name: Run smoke tests
-        run: npm run test:smoke
-
-      - name: Upload report
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: smoke-report
-          path: playwright-report
-
   regression-tests:
     if: github.ref == 'refs/heads/main' || github.event_name == 'schedule'
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [1/2, 2/2]
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: 18
 
-      - name: Install dependencies
-        run: npm ci
+      - run: npm ci
+      - run: npx playwright install --with-deps
 
-      - name: Install Playwright browsers
-        run: npx playwright install --with-deps
-
-      - name: Run full regression
-        run: npm run test:regression
+      - name: Run regression (shard ${{ matrix.shard }})
+        run: npx playwright test --shard=${{ matrix.shard }}
 
       - name: Upload report
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: regression-report
+          name: regression-report-${{ matrix.shard }}
           path: playwright-report
