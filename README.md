@@ -18,15 +18,16 @@ This project focuses on **stability, speed, and real-world auth handling**, not 
 
 ##   Key Design Decisions
 
-###  SSO Authentication Strategy
+### SSO Authentication Strategy
+
 This application uses **Single Sign-On (SSO)**.  
 Because credential entry is handled by an external Identity Provider:
 
-- ❌ We do NOT test username/password form validation
-- ❌ We do NOT depend on unstable login UI selectors
-- ✅ We validate **routing, access control, and session state**
-- ✅ Authentication is handled once via `globalSetup`
-- ✅ Tests reuse a stored authenticated session (`storageState`)
+- We do **NOT** test username/password form validation
+- We do **NOT** depend on unstable login UI selectors
+- We validate **routing, access control, and session state**
+- Authentication is handled once via `globalSetup`
+- Tests reuse a stored authenticated session (`storageState`)
 
 This mirrors how enterprise QA teams test SSO applications.
 
