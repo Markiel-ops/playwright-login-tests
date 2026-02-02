@@ -22,10 +22,10 @@ export default defineConfig({
   // Retry on CI only
   retries: process.env.CI ? 2 : 0,
 
-  // Workers: limit on CI, max locally
+  // Workers
   workers: process.env.CI ? 1 : undefined,
 
-  // Test report
+  // Test reports
   reporter: [
     ['html', { open: 'never' }],
     ['list'],
@@ -40,27 +40,32 @@ export default defineConfig({
     trace: 'on-first-retry',
   },
 
-  // Browsers
+  // Projects
   projects: [
   {
     name: 'setup',
-    testMatch: /auth\.setup\.ts/,
+    testMatch: /auth\.setup\.js/,
   },
+
+  // UNAUTHENTICATED TESTS
+  {
+    name: 'unauth',
+    testMatch: /(login|location)\.spec\.(js|ts)/,
+    use: {
+      ...devices['Desktop Chrome'],
+    },
+  },
+
+  // AUTHENTICATED TESTS
   {
     name: 'chromium',
     dependencies: ['setup'],
+    testIgnore: /(login|location)\.spec\.(js|ts)/,
     use: {
       ...devices['Desktop Chrome'],
       storageState: 'playwright/.auth/user.json',
     },
   },
-  {
-    name: 'logout',
-    testMatch: /logout\.spec\.ts/,
-    use: {
-      ...devices['Desktop Chrome'],
-    },
-  },
-],
+]
 
 });
