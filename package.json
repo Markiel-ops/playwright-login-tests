@@ -6,7 +6,12 @@
     "test": "playwright test"
   },
   "devDependencies": {
+    
     "@playwright/test": "^1.42.0",
+
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^20.9.0",
+
     "dotenv": "^17.2.3"
   }
 }
