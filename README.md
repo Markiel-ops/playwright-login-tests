@@ -13,13 +13,15 @@ for authentication workflows.
 ---
 
 ## Tech Stack
-
 - Playwright (TypeScript)
 - Node.js
 - Page Object Model (POM)
 - Environment-based configuration (`.env`)
 
----
+- Playwright (TypeScript)
+- Node.js
+- Page Object Model (POM)
+- Environment-based configuration (`.env`)
 
 ## Test Coverage
 
@@ -58,6 +60,7 @@ sentinel-e2e/
 └─ README.md
 
 ```
+
 ---
 
 ## How to Run
