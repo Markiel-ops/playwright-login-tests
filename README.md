@@ -1,8 +1,5 @@
 ![Smoke Tests](https://github.com/Markiel-ops/sentinel-e2e/actions/workflows/sentinel-smoke.yml/badge.svg?branch=main)
 
-
-
-
 # Sentinel E2E Automation (Playwright)
 
 ## Overview
@@ -17,6 +14,8 @@ for authentication workflows.
 
 ## Tech Stack
 
+=======
+
 - Playwright (TypeScript)
 - Node.js
 - Page Object Model (POM)
@@ -26,12 +25,21 @@ for authentication workflows.
 
 ## Test Coverage
 
+
 The automation suite covers the core login flow of the application, including:
 
 - User authentication
 - Page navigation and URL validation during login
 - Post-login state verification
 
+
+The automation suite covers the core login flow of the application, including:
+
+- User authentication
+- Page navigation and URL validation during login
+- Post-login state verification
+
+>>>>>>> sentinel-post-auth-smoke
 Additional authentication and post-login scenarios are intentionally archived
 to maintain a focused and stable active scope.
 
@@ -50,6 +58,7 @@ sentinel-e2e/
 ├─ .env.example
 ├─ playwright.config.ts
 └─ README.md
+
 ```
 ---
 
