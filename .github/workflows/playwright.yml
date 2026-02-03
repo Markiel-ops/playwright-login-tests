@@ -28,10 +28,7 @@ jobs:
       - name: Run Playwright tests
         env:
           BASE_URL: ${{ secrets.BASE_URL }}
-<<<<<<< HEAD
           VOYA_LOGIN_URL: ${{ secrets.VOYA_LOGIN_URL }}
-=======
->>>>>>> d8791c8 (Sentinel e2e: replace placeholder files with project originals)
           VOYA_EMAIL: ${{ secrets.VOYA_EMAIL }}
           VOYA_PASSWORD: ${{ secrets.VOYA_PASSWORD }}
         run: npx playwright test

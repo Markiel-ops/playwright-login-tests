@@ -1,4 +1,4 @@
-![Playwright Tests](https://github.com/Markiel-ops/sentinel-e2e/actions/workflows/playwright.yml/badge.svg)
+![Smoke Tests](https://github.com/Markiel-ops/sentinel-e2e/actions/workflows/sentinel-smoke.yml/badge.svg?branch=main)
 
 # Sentinel E2E Automation (Playwright)
 
@@ -24,11 +24,21 @@ for authentication workflows.
 - Environment-based configuration (`.env`)
 
 ## Test Coverage
+
+
 The automation suite covers the core login flow of the application, including:
 
 - User authentication
 - Page navigation and URL validation during login
 - Post-login state verification
+
+
+The automation suite covers the core login flow of the application, including:
+
+- User authentication
+- Page navigation and URL validation during login
+- Post-login state verification
+
 
 Additional authentication and post-login scenarios are intentionally archived
 to maintain a focused and stable active scope.

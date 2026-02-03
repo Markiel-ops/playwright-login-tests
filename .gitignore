@@ -1,7 +1,9 @@
 node_modules/
 test-results/
 playwright-report/
+storage/
 .env
 .env.*
 storageState.json
+auth.json
 *.log
