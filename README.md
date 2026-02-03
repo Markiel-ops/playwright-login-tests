@@ -47,6 +47,7 @@ sentinel-e2e/
 ├─ .env.example
 ├─ playwright.config.ts
 └─ README.md
+```
 ---
 
 ## How to Run
