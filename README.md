@@ -14,8 +14,6 @@ for authentication workflows.
 
 ## Tech Stack
 
-=======
-
 - Playwright (TypeScript)
 - Node.js
 - Page Object Model (POM)
@@ -39,7 +37,7 @@ The automation suite covers the core login flow of the application, including:
 - Page navigation and URL validation during login
 - Post-login state verification
 
->>>>>>> sentinel-post-auth-smoke
+
 Additional authentication and post-login scenarios are intentionally archived
 to maintain a focused and stable active scope.
 
