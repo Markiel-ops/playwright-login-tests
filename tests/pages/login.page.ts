@@ -9,7 +9,11 @@ export class LoginPage {
 
   async goto(): Promise<void> {
     // Relies on Playwright baseURL (clean + standard)
-    await this.page.goto('/');
+   await this.page.goto('/', {
+  waitUntil: 'domcontentloaded',
+  timeout: 60000,
+});
+
   }
 
   async isSSOTriggered(): Promise<boolean> {
