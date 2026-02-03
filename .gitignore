@@ -1,21 +1,7 @@
-# Node
 node_modules/
-
-# Playwright
 test-results/
 playwright-report/
-playwright/
-storageState.json
-
-# Env / secrets
 .env
 .env.*
-auth.json
-
-# OS / editor
-.vscode/
-.DS_Store
-
-# Logs
+storageState.json
 *.log
-

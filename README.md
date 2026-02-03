@@ -18,7 +18,10 @@ for authentication workflows.
 - Page Object Model (POM)
 - Environment-based configuration (`.env`)
 
----
+- Playwright (TypeScript)
+- Node.js
+- Page Object Model (POM)
+- Environment-based configuration (`.env`)
 
 ## Test Coverage
 The automation suite covers the core login flow of the application, including:

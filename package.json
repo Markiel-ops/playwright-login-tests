@@ -1,20 +1,12 @@
 {
-  "name": "documents",
+  "name": "sentinel-e2e",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test:smoke": "playwright test --grep @smoke",
-    "test:regression": "playwright test",
-    "test:ci": "playwright test"
+    "test": "playwright test"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "devDependencies": {
-    "@playwright/test": "^1.57.0",
-    "@types/node": "^25.0.9",
+    "@playwright/test": "^1.42.0",
     "dotenv": "^17.2.3"
   }
 }

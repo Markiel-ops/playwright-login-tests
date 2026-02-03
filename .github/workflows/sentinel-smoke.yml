@@ -1,4 +1,4 @@
-name: Sentinel Smoke Tests
+name: Smoke – Login
 
 on:
   push:
@@ -31,4 +31,5 @@ jobs:
           VOYA_LOGIN_URL: ${{ secrets.VOYA_LOGIN_URL }}
           VOYA_EMAIL: ${{ secrets.VOYA_EMAIL }}
           VOYA_PASSWORD: ${{ secrets.VOYA_PASSWORD }}
-        run: npx playwright test --grep @smoke
+        run: npx playwright test tests/login.spec.ts
+

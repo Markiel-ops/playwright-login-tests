@@ -1,15 +1,17 @@
 import { test, expect } from '@playwright/test';
-import { LoginPage } from './pages/login.page';
+import { LoginPage } from './pages';
 
-test.use({ storageState: undefined });
 
-test('unauthenticated user is routed to SSO login', async ({ page }) => {
-  const loginPage = new LoginPage(page);
 
-  await loginPage.goto();
+test.describe('Login flow | unauthenticated access', () => {
+  test('unauthenticated user is routed to SSO login', async ({ page }) => {
+    const loginPage = new LoginPage(page);
 
-  await expect(page).toHaveURL(/login|auth|sso|voyadores/i);
+    await loginPage.goto();
 
-  const ssoVisible = await loginPage.isSSOTriggered();
-  expect(ssoVisible).toBeTruthy();
+    await expect(page).toHaveURL(/sso|login|auth/i);
+
+    const isSSOVisible = await loginPage.isSSOTriggered();
+    expect(isSSOVisible).toBeTruthy();
+  });
 });
