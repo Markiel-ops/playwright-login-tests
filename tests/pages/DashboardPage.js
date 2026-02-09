@@ -1,12 +1,17 @@
 class DashboardPage {
   constructor(page) {
     this.page = page;
-    this.header = 'h1';
+    this.header = page.locator('h1'); // 👈 THIS is the problem
+  }
+
+  async goto() {
+    await this.page.goto('/');
   }
 
   async isLoaded() {
-    return this.page.locator(this.header).isVisible();
-  }
+  await this.page.waitForURL(/dashboard|voyadores/i);
 }
 
-module.exports = { DashboardPage };
+}
+
+module.exports = DashboardPage;

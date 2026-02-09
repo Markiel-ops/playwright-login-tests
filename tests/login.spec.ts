@@ -1,7 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { LoginPage } from './pages';
-
-
+const LoginPage = require('./pages/login.page');
 
 test.describe('Login flow | unauthenticated access', () => {
   test('unauthenticated user is routed to SSO login', async ({ page }) => {

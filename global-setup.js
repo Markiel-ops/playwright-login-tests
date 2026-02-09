@@ -22,6 +22,6 @@ module.exports = async () => {
 
   await page.waitForLoadState('domcontentloaded');
 
-  await context.storageState({ path: 'storageState.json' });
+  await context.storageState({ path: 'storage/storageState.json' });
   await browser.close();
 };
